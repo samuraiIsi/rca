@@ -1,0 +1,122 @@
+.list-gallery {
+    list-style:none;
+    display:inline-block;
+    margin-bottom: 15px;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+.fullsizelist {
+    white-space:nowrap;
+}
+.thumbnail-gallery {
+    height:80px;
+    padding:2px;
+}
+
+.large {
+    width:405px;
+}
+
+.mainimageshell {
+    background-color:#fff;
+    border-radius:8px;
+    //float:left;
+    // width:400px;
+    padding:10px;
+}
+
+.viewwindow {
+    width:405px; // 400px
+    height:307px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position:relative;
+}
+
+.fullsizelist{
+    position:absolute;
+    top:0;
+    left:0;
+    transition:  left .8s ease;
+    -ms-transition:  left .8s ease;
+    -o-transition:  left .8s ease;
+    -webkit-transition:  left .8s ease;
+    -moz-transition:  left .8s ease;
+}
+
+.bg {
+    background-color:#333;
+    padding:10px;
+    border-radius:8px;
+    float:left;
+}
+    
+
+.thumbsshell {
+    //background-color:#fff;
+    //width:400px;
+    padding:10px;
+    //border-radius:8px;
+    //float:left;
+}
+
+.thumbswrapper {
+    //overflow-x: scroll;
+    //width: 481px;
+    //height:60px;
+    //margin:20px auto;
+}
+
+.thumbwrapper {
+    float:left;
+    height:60px;
+}
+
+.captionshell {
+    margin:0 0 10px 5px;
+    background-color:#fff;
+    //width:175px;
+    //height:324px;
+    padding:0 10px;
+    border-radius:8px;
+    float:left;
+}
+
+.logoshell {
+    margin:0 0 0 5px;
+    text-align:center;
+    background-color:#fff;
+    width:175px;
+    padding:9px 10px;
+    border-radius:8px;
+    float:left;
+}
+.right-side {
+    float: right;
+    right: 2%;
+    z-index: 1;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index: 1;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}

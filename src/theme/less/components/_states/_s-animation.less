@@ -1,0 +1,48 @@
+.fadeOutDown {
+    animation: fadeoutdown 0.5s ease;
+}
+.fadeInUp { 
+    opacity: 1;
+    animation: fadeinup 0.5s ease;
+}
+@keyframes fadeinup {
+    from {top: 92%; opacity: 0;}
+    to {top: 87%; opacity: 1;}
+}
+@keyframes fadeoutdown {
+    from {top: 87%; opacity: 1;}
+    to {top: 92%; opacity: 0;}
+}
+
+.underlay {
+    // animation: downunderlay 0.8s linear;
+    // transition: background-color .8s cubic-bezier(0.24,.8,.55,.94);
+    &.upper {
+        .underlay-animation(0.9, -70px, black);
+    }
+    &.down {
+        .underlay-animation(1, -40px, transparent);
+    }
+}
+
+.main {
+    & .navbar{
+        padding: 15px 30px 0 30px;
+        transition: padding-top .8s;
+    }
+    & .movedown.navbar {
+        padding-top: 0px;
+        transition: padding-top .8s;
+    }
+}
+
+.headerMain{
+    & .navbar{
+        padding: 15px 30px 0 30px;
+        transition: padding-top .8s;
+    }
+    & .movedown.navbar {
+        padding-top: 0px;
+        transition: padding-top .8s;
+    }
+}

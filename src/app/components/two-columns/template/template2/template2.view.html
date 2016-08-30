@@ -1,0 +1,22 @@
+<div class="row">
+	<div class="col-lg-12">
+		<h1 class="page-title">{{template2.model.element.titlePage}}</h1>
+	</div>
+</div>
+<div class="row">
+	<article ng-repeat="panel in template2.model.element.panels">
+		<panel header="{{panel.header}}" body="{{panel.body}}" colclass="{{panel.columns}}" panelstyle="{{panel.panelstyle}}"></panel>
+	</article>
+</div>
+<div class="row row-margin">
+	<article ng-repeat="panel in template2.model.element.panels">
+		<panel header="{{panel.header}}" body="{{panel.body}}" colclass="{{panel.columns}}" panelstyle="{{panel.panelstyle}}"></panel>
+	</article>
+</div>
+<div class="row text-center row-margin">
+	<article ng-repeat="ele in template2.model.element.notes">
+		<div class="col-xs-4">
+			<icon-text subheader="{{ele.subTitleInfoBanFour}}" header="{{ele.titleInfoBanFour}}" icon="{{ele.infoIconBanFour}}"></icon-text>
+		</div>
+	</article>
+</div>

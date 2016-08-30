@@ -1,0 +1,28 @@
+{
+	"panels": [
+		{
+			"header": "Panel Header 1",
+			"body": "Panel Content",
+			"columns": "col-lg-3 col-xs-1",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 1",
+			"body": "Panel Content",
+			"columns": "col-lg-3 col-xs-1",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 1",
+			"body": "Panel Content",
+			"columns": "col-lg-3 col-xs-1",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 1",
+			"body": "Panel Content",
+			"columns": "col-lg-3 col-xs-1",
+			"panelstyle": "panel-primary"
+		}
+	]
+}

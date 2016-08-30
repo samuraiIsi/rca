@@ -1,0 +1,76 @@
+{
+	"headerbg": "http://localhost:8075/src/theme/assets/img/header-bgs/laptop_header.jpg",
+	"title" : "HJSON YOU FAVORITE SOURCE OF FREE BOOTSTRAP THEMES",
+	"subTitle" : "Startttt Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!",
+	"btnClassPresentXlg": "btn btn-danger btn--oval text-uppercase",
+	"ctaTextPresentXlg" : "Mira lo Ultimo",
+	"titlePresentLg": "HJSON Todo lo que necesitas sobre boligrafos",
+	"subTitlePresentLg": "Empieza a ver nuestra gama de boligrafos you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!",
+	"btnNosotrosCtaText": "btn btn-default btn--oval text-uppercase",	
+	"nosotrosCtaText" : "Quiero Informacion",
+	"serviciosTitle" : "At your service",
+	"portafolioInfoTitle" : "Ver mas Sobre nuestro Portafolio",
+	"portafolioInfoCtaText" : "Ver Mas",
+	"notes": 
+	[
+		{
+			"infoIconBanFour": "glyphicon glyphicon-book",
+			"titleInfoBanFour": "Sturdy Templates1",
+			"subTitleInfoBanFour": "Our templates are updated regularly so they don't break.1"
+		},
+		{
+			"infoIconBanFour": "glyphicon glyphicon-envelope",
+			"titleInfoBanFour": "Sturdy Templates1",
+			"subTitleInfoBanFour": "Our templates are updated regularly so they don't break.1"
+		},
+		{
+			"infoIconBanFour": "glyphicon glyphicon-cloud",
+			"titleInfoBanFour": "Sturdy Templates1",
+			"subTitleInfoBanFour": "Our templates are updated regularly so they don't break.1"
+		},
+		{
+			"infoIconBanFour": "glyphicon glyphicon-user",
+			"titleInfoBanFour": "Sturdy Templates1",
+			"subTitleInfoBanFour": "Our templates are updated regularly so they don't break.1"
+		}
+	],
+	"images":
+	[
+		{
+		    "image": "src/theme/assets/img/portafolio/alimentos.jpg",
+		    "category": "Titulo1",
+		    "portaName": "Titulo2",
+		    "enlace": "http://www.betfred.com"
+	  	},
+		{
+		    "image": "src/theme/assets/img/portafolio/camaras.jpg",
+		    "category": "Titulo1",
+		    "portaName": "Titulo2",
+		    "enlace": "/RcaPublicidadV2/#/boligrafos"
+		},
+		{
+		    "image": "src/theme/assets/img/portafolio/compas.jpg",
+		    "category": "Titulo1",
+		    "portaName": "Titulo2",
+		    "enlace": "/RcaPublicidadV2/#/"
+		},
+		{
+		    "image": "src/theme/assets/img/portafolio/flayers.jpg",
+		    "category": "Titulo1",
+		    "portaName": "Titulo2",
+		    "enlace": "/RcaPublicidadV2/#/boligrafos"
+		},
+		{
+		    "image": "src/theme/assets/img/portafolio/mesa.jpg",
+		    "category": "Titulo1",
+		    "portaName": "Titulo2",
+		    "enlace": "/RcaPublicidadV2/#/boligrafos"
+		},
+		{
+		    "image": "src/theme/assets/img/portafolio/herramientas.jpg",
+		    "category": "Titulo1",
+		    "portaName": "Titulo2",
+		    "enlace": "/RcaPublicidadV2/#/boligrafos"
+		}
+	]
+}
