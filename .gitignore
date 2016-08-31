@@ -1,0 +1,6 @@
+build/
+Configs/
+css/
+node_modules/
+dist/
+js/

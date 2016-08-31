@@ -1,0 +1,53 @@
+{
+	"titlePage": "Template5",
+	"panels": [
+		{
+			"header": "Panel Header 2",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
+			"columns": "col-lg-12 col-xs-1",
+			"panelstyle": "panel-danger"
+		}
+	],
+	"gallery": [
+		{
+			"bodystyle": "panel-body--rmpadding",
+			"columns": "col-xs-6",
+			"header": "Perpidium - 27cm x 25cm",
+			"imgalt": "Cinque Terre",
+			"imgheight": "215",
+			"imgpath": "src/theme/assets/img/middle-imgs/RLDD945x215.jpg",
+			"imgwidth": "780",
+			"panelstyle": "panel-danger"
+		},
+		{
+			"bodystyle": "panel-body--rmpadding",
+			"columns": "col-xs-6",
+			"header": "Perpidium - 27cm x 25cm",
+			"imgalt": "Cinque Terre",
+			"imgheight": "215",
+			"imgpath": "src/theme/assets/img/middle-imgs/ts_sports_OlympicDailySpecials_945x215.jpg",
+			"imgwidth": "780",
+			"panelstyle": "panel-danger"
+		},
+		{
+			"bodystyle": "panel-body--rmpadding",
+			"columns": "col-xs-6",
+			"header": "Perpidium - 27cm x 25cm",
+			"imgalt": "Cinque Terre",
+			"imgheight": "215",
+			"imgpath": "src/theme/assets/img/middle-imgs/tote_moneyback2nd_945x215.jpg",
+			"imgwidth": "780",
+			"panelstyle": "panel-danger"
+		},
+		{
+			"bodystyle": "panel-body--rmpadding",
+			"columns": "col-xs-6",
+			"header": "Perpidium - 27cm x 25cm",
+			"imgalt": "Cinque Terre",
+			"imgheight": "215",
+			"imgpath": "src/theme/assets/img/middle-imgs/TSSportsPriceBoostFootball945x215.jpg",
+			"imgwidth": "780",
+			"panelstyle": "panel-danger"
+		}
+	]
+}

@@ -1,0 +1,32 @@
+.btn-toTop-position {
+	z-index: 1030;
+	position: fixed;
+	right: 2%; /*100px*/
+	top: 87%;  /*540px*/
+	opacity: 0;
+
+}
+//backToTopButton
+.btn-toTop {
+	background-color: red;
+	color: #fff;
+	padding: 5px 8px;
+	&:focus, &:active {
+		background-color: red;
+		border-color: #fff !important;
+		color: #fff;
+		outline: none !important;
+	}
+	&:hover {
+		background-color: #fff;
+		color: red;
+	}
+}
+.btn--oval {
+	border-radius: 350px;
+    margin: 5%;
+    padding: 15px 30px;
+    &.small {
+    	.sizing-btn(0 5px, 50%);
+    }
+}

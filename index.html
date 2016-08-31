@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<html>
+<head>
+    <title>RCA - Inicio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="shortcut icon" href="src/theme/assets/img/favicon.ico">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyB1k-1JMJZk4nUqUy6N84bRLXbwi5EwPOs"></script>
+</head>
+
+<body data-ng-app="app">
+	<!--cookie consent-->
+	<!-- <header class="main-header" data-ng-include="'components/header/header.html'"></header>-->
+	<header-section></header-section>
+	
+	<div id="view" ui-view></div>
+
+	<btn-to-top></btn-to-top>
+	<!-- <widgets></widgets> -->
+	<footer-section></footer-section>
+	
+	<!-- vendor -->	
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ 	<script src="vendor/angular/angular.js"></script>
+ 	<script src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
+ 	<script src="vendor/ui-bootstrap-tpls-2.0.0.min.js"></script>
+ 	<script src="vendor/markdown.js"></script>
+ 	<!-- <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
+	<script src="http://www.bootstrapcdn.com/"></script> -->
+ 	
+	<!-- inject:js -->
+ 	<script src="build/src/app.js"></script>
+ 	<!-- <script src="src/common/config.js"></script> -->
+    <!-- <script src="src/app/app.routes.js"></script>
+    <script src="src/app/components/_components.js"></script>
+    <script src="src/app/components/home/home.controller.js"></script>
+	<script src="src/app/components/home/home.js"></script>
+	<script src="src/app/components/two-columns/template/template1/template1.js"></script>
+	<script src="src/app/components/two-columns/template/template1/template1.controller.js"></script>
+	<script src="src/app/components/two-columns/template/template2/template2.js"></script>
+	<script src="src/app/components/two-columns/template/template2/template2.controller.js"></script>
+	<script src="src/app/components/two-columns/template/template3/template3.js"></script>
+	<script src="src/app/components/two-columns/template/template3/template3.controller.js"></script>
+	<script src="src/app/components/two-columns/template/template4/template4.js"></script>
+	<script src="src/app/components/two-columns/template/template4/template4.controller.js"></script>
+	<script src="src/app/components/two-columns/template/template5/template5.js"></script>
+	<script src="src/app/components/two-columns/template/template5/template5.controller.js"></script>
+	<script src="src/app/components/two-columns/template/template6/template6.js"></script>
+	<script src="src/app/components/two-columns/template/template6/template6.controller.js"></script>
+	<script src="src/app/components/two-columns/template/template7/template7.js"></script>
+	<script src="src/app/components/two-columns/template/template7/template7.controller.js"></script>
+	<script src="src/app/components/two-columns/template/template8/template8.js"></script>
+	<script src="src/app/components/two-columns/template/template8/template8.controller.js"></script>
+	<script src="src/app/components/two-columns/two-columns.js"></script>
+	<script src="src/app/components/two-columns/two-columns.controller.js"></script>
+	<script src="src/app/layout/footer/footer.js"></script>
+	<script src="src/app/layout/footer/footer.controller.js"></script>
+	<script src="src/app/layout/header/header.js"></script>
+	<script src="src/app/shared/_shared.js"></script>
+	<script src="src/app/shared/article/panel/panel.js"></script>
+	<script src="src/app/shared/article/panel/panel.controller.js"></script>
+	<script src="src/app/shared/article/iconText/iconText.js"></script>
+	<script src="src/app/shared/article/iconText/iconText.controller.js"></script>
+	<script src="src/app/shared/btnToTop/btnToTop.js"></script>
+	<script src="src/app/shared/btnToTop/btnToTop.controller.js"></script>
+	<script src="src/app/shared/carousel/carousel.js"></script>
+	<script src="src/app/shared/carousel/carousel.controller.js"></script>
+	<script src="src/app/shared/headerBackground/headerBackground.js"></script>
+	<script src="src/app/shared/hiddenBannerThree/hiddenBannerThree.js"></script>
+	<script src="src/app/shared/hiddenBannerThree/hiddenBannerThree.controller.js"></script>
+	<script src="src/app/shared/imagesThreeCol/imagesThreeCol.js"></script>
+	<script src="src/app/shared/imagesThreeCol/imagesThreeCol.controller.js"></script>
+	<script src="src/app/shared/menuSide/nwCategoryItem/nwCategoryItem.js"></script>
+	<script src="src/app/shared/menuSide/nwCategoryItem/nwCategoryItem.controller.js"></script>
+	<script src="src/app/shared/menuSide/nwCategorySelect/nwCategorySelect.js"></script>
+	<script src="src/app/shared/menuSide/nwCategorySelect/nwCategorySelect.controller.js"></script>
+	<script src="src/app/shared/navigation/navigation.js"></script>
+	<script src="src/app/shared/navigation/navigation.controller.js"></script>
+	<script src="src/app/shared/presentation/presentationLg/presentationLg.js"></script>
+	<script src="src/app/shared/presentation/presentationLg/presentationLg.controller.js"></script>
+	<script src="src/app/shared/presentation/presentationXlg/presentationXlg.controller.js"></script>
+	<script src="src/app/shared/presentation/presentationXlg/presentationXlg.js"></script>
+	<script src="src/app/shared/separator/separator.js"></script>
+	<script src="src/app/shared/scrollAnimated/scrollAnimated.js"></script>
+	<script src="src/app/shared/scrollAnimated/scrollAnimated.controller.js"></script>
+	<script src="src/app/shared/logo/logo.js"></script>
+	<script src="src/common/services/_services.js"></script>
+	<script src="src/common/services/category.service.js"></script>
+	<script src="src/common/services/footer.service.js"></script>
+	<script src="src/common/services/home.service.js"></script>
+	<script src="src/common/services/navigation.service.js"></script>
+	<script src="src/common/services/presentation.service.js"></script>
+	<script src="src/common/services/two-columns.service.js"></script>
+	<script src="src/common/config.js"></script> -->
+</body>
+</html>

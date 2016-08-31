@@ -1,0 +1,66 @@
+<div ng-controller="HomeController" id="home" class="fullscreen">
+<section id="inicioHeader" class="section-pt">
+  	<div class="container">
+  		<div class="header-content">
+			<presentation-xlg header="{{home.model.element.title}}" subheader="{{home.model.element.subTitle}}" ctatext="{{home.model.element.ctaTextPresentXlg}}" btnclass="{{home.model.element.btnClassPresentXlg}}"></presentation-xlg>
+		</div>
+	</div>
+</section>
+<section class="orangeSection" class="section-pt">
+	<div class="container">
+		<div class="text-center col-xs-8 col-xs-offset-2">
+			<presentation-lg subheader="{{home.model.element.subTitlePresentLg}}" header="{{home.model.element.titlePresentLg}}"></presentation-lg>
+			<a type="button" href="#contacto" class="{{home.model.element.btnNosotrosCtaText}}">{{home.model.element.nosotrosCtaText}}</a>
+		</div>
+	</div>
+</section>
+<section class="whiteSection" class="section-pt">
+	<div class="container text-center">
+		<div class="row">
+			<h2>{{home.model.element.serviciosTitle}}</h2>
+		</div>
+		<separator-sections></separator-sections>
+		<article ng-repeat="ele in home.model.element.notes">
+			<div class="col-xs-3">
+				<icon-text subheader="{{ele.subTitleInfoBanFour}}" header="{{ele.titleInfoBanFour}}" icon="{{ele.infoIconBanFour}}"></icon-text>
+			</div>
+		</article>
+	</div>
+</section>
+<section class="galeriaImagenes" class="container-fluid" class="section-pt">
+	<div class="row">
+		<article ng-repeat="ele in home.model.element.images">
+			<images-three-col enlace="{{ele.enlace}}" image="{{ele.image}}" category="{{ele.category}}" portName="{{ele.portaName}}"></images-three-col>
+		</article>
+	</div>
+</section>
+<!-- <div class="container">
+	<div class="container container--circles" detect-view-port>
+		<div class="circle c1 revealer">
+			<div class="circle__inner">
+			  01
+			</div>
+		</div>
+		<div class="circle c2 revealer">
+			<div class="circle__inner">
+			  02
+			</div>
+		</div>
+		<div class="circle c3 revealer">
+			<div class="circle__inner">
+			  03
+			</div>
+		</div>
+	</div>
+	<a class="btn" href="http://xtianmiller.com/notes/animating-elements-when-they-appear-in-viewport/" target="_blank">
+	    <span class="row1">Read Article</span>
+	    <span class="row2">Read Article</span>
+	</a>
+</div> -->
+<aside class="portafolioInfo">
+	<div class="container text-center">
+		<h2>{{home.model.element.portafolioInfoTitle}}</h2>
+		<a type="button" href="#" class="btn btn-default btn--oval text-uppercase">{{home.model.element.portafolioInfoCtaText}}</a>
+	</div>
+</aside>
+</div>

@@ -1,0 +1,39 @@
+<div ng-controller="TwoColumnsController" id="home">
+
+    <aside class="section-pt">
+    	<div class="sidenav">
+    		<h2>Category</h2>
+    		<nw-category-select></nw-category-select>
+    	</div>
+    </aside>
+    <section>
+        <div ui-view="{{category.name}}" class="wrapper">
+        	<div class="row">
+        		<div class="col-lg-12">
+        			<h1 class="page-title">Dashboard</h1>
+        		</div>
+        	</div>
+        	<div class="row">
+        		<article ng-repeat="panel in twoColumns.model.element.panels">
+            		<panel header="{{panel.header}}" body="{{panel.body}}" columns="{{panel.columns}}" panelstyle="{{panel.panelstyle}}"></panel>
+            	</article>
+        	</div>
+        	<div class="row">
+    	    	<article ng-repeat="ele in home.model.element.notes">
+    				<div class="col-xs-4">
+    					<info-banner-four subheader="{{ele.subTitleInfoBanFour}}" header="{{ele.titleInfoBanFour}}" icon="{{ele.infoIconBanFour}}"></info-banner-four>
+    				</div>
+    			</article>
+    		</div>
+    	</div>
+    </section>
+</div>
+
+<!-- https://docs.angularjs.org/guide/directive#-ngattr-attribute-bindings -->
+<!-- http://plnkr.co/edit/WoqtP8ZpvPh2r94ITQvf?p=preview -->
+<!-- $stateprovider angularjs
+http://joelhooks.com/blog/2013/07/22/the-basics-of-using-ui-router-with-angularjs/ 
+-->
+<!--
+https://builtwith.angularjs.org/
+-->

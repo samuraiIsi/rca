@@ -1,0 +1,59 @@
+//#top { display: block;}
+//.topClass { background-color: #fff !important;}
+.logo {
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+}
+.underlay {
+    position: fixed;
+    width: 100%;
+    height: 125px;
+    font-size: 16px;
+    background-color: transparent;
+    z-index: 3;
+    padding-top: 30px;
+}
+.small.logo {
+    font-size: 20px;
+    -webkit-transition: font-size .8s; /* For Safari 3.1 to 6.0 */
+    transition: font-size .8s;
+    margin-top: 10px;
+}
+
+.big.logo {
+    font-size: 40px;
+    -webkit-transition: font-size .8s; /* For Safari 3.1 to 6.0 */
+    transition: font-size .8s;
+}
+#sobre, .portafolioInfo { color: #fff;} // it should be section instead of 
+.headerMain{
+	height: 0;
+	position: static;
+	z-index: 3;
+	 & ul {
+        margin-top: 17px;
+    }
+}
+
+// .main-header { 
+// 	position: relative;
+// 	section {
+// 		padding: 0;
+// 	}
+// }
+#serviciosHeader {
+	background-image: url(../images/headerBg.jpg);
+}
+#boligrafosHeader {
+	background: url(../images/boligrafos.jpg) no-repeat left top;
+	background-size: 100% 100%;
+}
+#inicioHeader, #carteleriaHeader {
+	background-image: url(../src/theme/assets/img/header-bgs/laptop_header.jpg);
+	padding-bottom: 19%;
+}
+section[header-bg] {
+    color: #fff;
+    background-size: 100% 100%;
+}

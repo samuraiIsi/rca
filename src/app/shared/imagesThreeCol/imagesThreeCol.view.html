@@ -1,0 +1,15 @@
+<div class="col-sm-4">
+	<a href="{{enlace}}" ng-click="gotoElement(enlace)" class="portafolio-box">
+		<img class="img-responsive" ng-src="{{image}}">
+		<div class="box-caption" ng-class="{hoverPorta: hoveringPorta}" ng-mouseenter="hoveringPorta = true" ng-mouseleave="hoveringPorta = false">
+			<div class="box-content text-center">
+				<div class="box-category text-uppercase">
+					{{category}}
+				</div>
+				<div class="box-name">
+					{{portaName}}
+				</div>
+			</div>
+		</div>
+	</a>
+</div>
