@@ -8,8 +8,8 @@ angular.module('app')
 		controller: 'HomeController',
 		controllerAs: 'home'
 	})
-	.state('two-columns', {
-		url: '/two-columns',
+	.state('servicios', {
+		url: '/servicios',
 		templateUrl: 'src/app/components/two-columns/two-columns.view.html',
 		controller: 'TwoColumnsController',
 		controllerAs: 'twoColumns'
@@ -73,6 +73,18 @@ angular.module('app')
 		controller: 'HomeController',
 		controllerAs: 'home'
 	})
+	// .state('promociones', {
+	// 	url: '/',
+	// 	templateUrl: 'src/app/components/promociones/promociones.view.html',
+	// 	controller: 'HomeController',
+	// 	controllerAs: 'promociones'
+	// }).
+	// .state('proveedores', {
+	// 	url: '/',
+	// 	templateUrl: 'src/app/components/proveedores/proveedores.view.html',
+	// 	controller: 'HomeController',
+	// 	controllerAs: 'proveedores'
+	// })
 	.state('contact', {
 		url: '/contact',
 		templateUrl: 'src/app/components/contact/contact.view.html',
