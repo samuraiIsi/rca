@@ -3,7 +3,7 @@
 	"gallery": [
 		{
 			"bottomtext": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna",
-			"colclass": "col-xs-3",
+			"colclass": "col-xs-4",
 			"header": "Carpe Diem",
 			"imgalt": "Cinque Terre",
 			"imgheight": "140",
@@ -13,6 +13,7 @@
 		},
 		{
 			"bottomtext": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna",
+			"colclass": "col-xs-4",
 			"colclass": "col-xs-3",
 			"header": "Carpe Diem",
 			"imgalt": "Cinque Terre",
@@ -23,7 +24,7 @@
 		},
 		{
 			"bottomtext": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna",
-			"colclass": "col-xs-3",
+			"colclass": "col-xs-4",
 			"header": "Carpe Diem",
 			"imgalt": "Cinque Terre",
 			"imgheight": "140",
@@ -39,7 +40,7 @@
 			"titletext": "First featurette heading.",
             "titletextclass": "title-text-only",
             "spantext": "It'll blow your mind.",
-			"colclass2": "col-md-4",
+			"colclass2": "col-md-5",
 			"imgalt": "Cinque Terre",
 			"imgheight": "400",
 			"imgpath": "src/theme/assets/img/cities/cinqueterre.jpg",
