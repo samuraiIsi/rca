@@ -1,14 +1,14 @@
-<div style="height: 305px">
-  <div uib-carousel active="active" interval="myInterval" no-wrap="false">
-    <div uib-slide ng-repeat="slide in slidedata track by slide.id" index="slide.id">
-		<img ng-src="{{slide.image}}" style="margin: auto;">
-		<div class="carousel-caption">
-			<div class="pull-left text-left">
-				<h4>{{slide.title}}</h4>
-				<p>{{slide.text}}</p>
-			</div>
-			<a type="button" class="btn btn-danger pull-right btn--oval small">Ir</a>
-      </div>
-    </div>
-  </div>
+<div>
+	<div uib-carousel active="active" interval="myInterval" no-wrap="false">
+		<div uib-slide ng-repeat="slide in slidedata track by slide.id" index="slide.id">
+			<img ng-src="{{slide.image}}" style="margin: auto;">
+			<div class="carousel-caption">
+				<div class="pull-left text-left">
+					<h4>{{slide.title}}</h4>
+					<p>{{slide.text}}</p>
+				</div>
+				<a type="button" class="btn btn-danger pull-right btn--oval small">Ir</a>
+		  </div>
+		</div>
+	</div>
 </div>

@@ -1,8 +1,11 @@
 .carousel-outter {
 	margin-bottom: 80px;
+	float: none;
+	margin: 0 auto;
+	width: 700px
 }
 .carousel {
-	margin: @standardDistance * 2.5 @standardDistance * 9;
+	margin: @standardDistance * 2.5;
 	& .btn {
 		margin: 0;
 	}
@@ -14,4 +17,13 @@
 }
 .carousel-indicators {
 	display: none;
+}
+.carousel-control {
+	width: 0;
+	&.right {
+		right: 70px;
+	}
+	&.left {
+		left: 35px;
+	}
 }

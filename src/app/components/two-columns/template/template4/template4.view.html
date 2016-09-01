@@ -8,8 +8,8 @@
 		<panel header="{{panel.header}}" body="{{panel.body}}" colclass="{{panel.columns}}" panelstyle="{{panel.panelstyle}}"></panel>
 	</article>
 </div>
-<div class="row">
-	<article ng-repeat="panel in template4.model.element.panelsfooter">
-		<panel imgalt="{{panel.imgalt}}" body="{{panel.body}}" bodystyle="{{panel.bodystyle}}" colclass="{{panel.columns}}" footerstyle="{{panel.footerstyle}}" panelstyle="{{panel.panelstyle}}" imgheight="{{panel.imgheight}}" imgpath="{{panel.imgpath}}" imgshape="{{panel.imgshape}}" imgwidth="{{panel.imgwidth}}" footer="{{panel.footer}}"></panel>
-	</article>
+<div ng-repeat="panel in template4.model.element.panelsfooter" ng-if="$index % 6 === 0" class="row">
+<article ng-repeat="panel in template4.model.element.panelsfooter.slice($index, ($index + 4 > template4.model.element.panelsfooter.length ? template4.model.element.panelsfooter.length : $index+6))">
+	<panel imgalt="{{panel.imgalt}}" body="{{panel.body}}" bodystyle="{{panel.bodystyle}}" colclass="{{panel.columns}}" footerstyle="{{panel.footerstyle}}" panelstyle="{{panel.panelstyle}}" imgheight="{{panel.imgheight}}" imgpath="{{panel.imgpath}}" imgshape="{{panel.imgshape}}" imgwidth="{{panel.imgwidth}}" footer="{{panel.footer}}"></panel>
+</article>
 </div>

@@ -15,10 +15,10 @@
 		}
 	],
 	"panelsfooter": [
-		{
+		{	
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium0 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -29,7 +29,7 @@
 		{
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium1 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -40,7 +40,7 @@
 		{
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium2 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -51,7 +51,7 @@
 		{
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium3 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -62,7 +62,7 @@
 		{
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium4 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -73,7 +73,7 @@
 		{
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium5 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -81,10 +81,10 @@
 			"imgwidth": "238",
 			"panelstyle": "panel-success"
 		},
-		{
+		{	
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium6 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -95,7 +95,7 @@
 		{
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium7 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -106,7 +106,7 @@
 		{
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium8 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -117,7 +117,7 @@
 		{
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium9 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -128,7 +128,7 @@
 		{
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium10 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
@@ -139,7 +139,7 @@
 		{
 			"bodystyle": "panel-body--rmpadding",
 			"columns": "col-xs-2",
-			"footer": "Perpidium - 27cm x 25cm",
+			"footer": "Perpidium11 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
