@@ -27,8 +27,8 @@ angular.module('app')
 		controller: 'Template2Controller',
         controllerAs: 'template2'
 	})
-	.state('servicios.agendas', {
-		url: '/agendas',
+	.state('servicios.regalos', {
+		url: '/regalos',
 		templateUrl: 'src/app/components/two-columns/template/template3/template3.view.html',
 		//parent: two-columns,
 		controller: 'Template3Controller',
