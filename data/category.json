@@ -1,26 +1,34 @@
 [
 	{
-		"name": "template1"
+		"name": "carteleria",
+		"icon": "glyphicon glyphicon-th-large"
 	},
 	{
-		"name": "template2"
+		"name": "servicios",
+		"icon": "glyphicon glyphicon-cloud"
 	},
 	{
-		"name": "template3"
+		"name": "regalos",
+		"icon": "glyphicon glyphicon-gift"
 	},
 	{
-		"name": "template4"
+		"name": "llaveros",
+		"icon": "glyphicon glyphicon-folder-open"
 	},
 	{
-		"name": "template5"
+		"name": "boligrafos",
+		"icon": "glyphicon glyphicon-thumbs-up"
 	},
 	{
-		"name": "template6"
+		"name": "pegatinas",
+		"icon": "glyphicon glyphicon-send"
 	},
 	{
-		"name": "template7"
+		"name": "camisetas",
+		"icon": "glyphicon glyphicon-user"
 	},
 	{
-		"name": "template8"
+		"name": "otros",
+		"icon": "glyphicon glyphicon-road"
 	}
 ]

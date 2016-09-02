@@ -5,6 +5,8 @@
 		.module('common.components', [
 			'components.contact',
 			'components.home',
+			'components.promociones',
+			'components.proveedores',
 			'components.template1',
 			'components.template2',
 			'components.template3',

@@ -1,7 +1,6 @@
 <li ng-class="{'activess': categoryActive()}">
-<!-- <a class="sort-menu-item" ng-click="makeActive()" href="#/two-columns/{{category.name}}"> -->
-<a class="sort-menu-item" ng-click="makeActive()" ui-sref=".{{category.name}}">
-	<!-- <i class="icon left {{category.icon}}"></i> -->
+<a class="sort-menu-item text-capitalize" ng-click="makeActive()" ui-sref=".{{category.name}}">
+	<i class="icon left {{category.icon}}"></i>
 	{{category.name}}
 </a>
 </li>
