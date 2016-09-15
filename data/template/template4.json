@@ -1,218 +1,221 @@
 {
-	"titlePage": "Template4",
+	"titlePage": "llaveros",
 	"panels": [
 		{
 			"header": "Panel Header 2",
 			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
-			"columns": "col-lg-6 col-xs-1",
+			"columns": "col-lg-2 col-md-6 col-sm-6 col-xs-12",
 			"panelstyle": "panel-primary"
 		},
 		{
 			"header": "Panel Header 2",
 			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
-			"columns": "col-lg-6 col-xs-1",
+			"columns": "col-lg-2 col-md-6 col-sm-6 col-xs-12",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 2",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
+			"columns": "col-lg-2 col-md-6 col-sm-6 col-xs-12",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 2",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
+			"columns": "col-lg-2 col-md-6 col-sm-6 col-xs-12",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 2",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
+			"columns": "col-lg-2 col-md-6 col-sm-6 col-xs-12",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 2",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
+			"columns": "col-lg-2 col-md-6 col-sm-6 col-xs-12",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 2",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
+			"columns": "col-lg-2 col-md-6 col-sm-6 col-xs-12",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 2",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
+			"columns": "col-lg-2 col-md-6 col-sm-6 col-xs-6",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 2",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
+			"columns": "col-lg-2 col-md-6 col-sm-6 col-xs-6",
+			"panelstyle": "panel-primary"
+		},
+		{
+			"header": "Panel Header 2",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
+			"columns": "col-lg-2 col-md-6 col-sm-6 col-xs-12",
 			"panelstyle": "panel-primary"
 		}
 	],
 	"panelsfooter": [
-		{	
-			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
-			"footer": "Perpidium0 - 27cm x 25cm",
-			"footerstyle": "panel-footer--bgcolor",
-			"imgalt": "Cinque Terre",
-			"imgheight": "236",
-			"imgpath": "src/theme/assets/img/cities/cinqueterre.jpg",
-			"imgwidth": "238",
-			"panelstyle": "panel-danger"
-		},
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
 			"footer": "Perpidium1 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
 			"imgpath": "src/theme/assets/img/cities/paris.jpg",
-			"imgwidth": "238",
+			"imgwidth": "300",
 			"panelstyle": "panel-success"
 		},
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
-			"footer": "Perpidium2 - 27cm x 25cm",
-			"footerstyle": "panel-footer--bgcolor",
-			"imgalt": "Cinque Terre",
-			"imgheight": "236",
-			"imgpath": "src/theme/assets/img/cities/pulpitrock.jpg",
-			"imgwidth": "238",
-			"panelstyle": "panel-success"
-		},
-		{
-			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
 			"footer": "Perpidium3 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
 			"imgpath": "src/theme/assets/img/cities/sanfran.jpg",
-			"imgwidth": "238",
+			"imgwidth": "300",
 			"panelstyle": "panel-success"
 		},
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
 			"footer": "Perpidium4 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
 			"imgpath": "src/theme/assets/img/cities/newyork.jpg",
-			"imgwidth": "238",
+			"imgwidth": "300",
 			"panelstyle": "panel-success"
 		},
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
 			"footer": "Perpidium5 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
 			"imgpath": "src/theme/assets/img/cities/img_chania.jpg",
-			"imgwidth": "238",
+			"imgwidth": "300",
 			"panelstyle": "panel-success"
 		},
 		{	
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
 			"footer": "Perpidium6 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
 			"imgpath": "src/theme/assets/img/cities/moustiers-sainte-marie.jpg",
-			"imgwidth": "238",
+			"imgwidth": "300",
 			"panelstyle": "panel-success"
 		},
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
 			"footer": "Perpidium7 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
 			"imgpath": "src/theme/assets/img/cities/newyork.jpg",
-			"imgwidth": "238",
+			"imgwidth": "300",
 			"panelstyle": "panel-success"
 		},
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
 			"footer": "Perpidium8 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
 			"imgpath": "src/theme/assets/img/cities/img_chania.jpg",
-			"imgwidth": "238",
+			"imgwidth": "300",
 			"panelstyle": "panel-success"
 		},
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
-			"footer": "Perpidium9 - 27cm x 25cm",
-			"footerstyle": "panel-footer--bgcolor",
-			"imgalt": "Cinque Terre",
-			"imgheight": "236",
-			"imgpath": "src/theme/assets/img/cities/cinqueterre.jpg",
-			"imgwidth": "238",
-			"panelstyle": "panel-success"
-		},
-		{
-			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
-			"footer": "Perpidium10 - 27cm x 25cm",
-			"footerstyle": "panel-footer--bgcolor",
-			"imgalt": "Cinque Terre",
-			"imgheight": "236",
-			"imgpath": "src/theme/assets/img/cities/pulpitrock.jpg",
-			"imgwidth": "238",
-			"panelstyle": "panel-success"
-		},
-		{
-			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-2",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
 			"footer": "Perpidium11 - 27cm x 25cm",
 			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
 			"imgpath": "src/theme/assets/img/cities/sanfran.jpg",
-			"imgwidth": "238",
+			"imgwidth": "300",
 			"panelstyle": "panel-success"
-		}
-	],
-	"gallery": [
+		},
 		{
-			"bottomtext": "Cinque Terre",
-			"colclass": "col-xs-4",
+			"bodystyle": "panel-body--rmpadding",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
+			"footer": "Perpidium11 - 27cm x 25cm",
+			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
-			"imgpath": "src/theme/assets/img/cities/cinqueterre.jpg",
-			"imgshape": "img-circle",
-			"imgwidth": "304"
+			"imgpath": "src/theme/assets/img/cities/sanfran.jpg",
+			"imgwidth": "300",
+			"panelstyle": "panel-success"
 		},
 		{
-			"bottomtext": "Cinque Terre",
-			"colclass": "col-xs-4",
+			"bodystyle": "panel-body--rmpadding",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
+			"footer": "Perpidium11 - 27cm x 25cm",
+			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
-			"imgpath": "src/theme/assets/img/cities/cinqueterre.jpg",
-			"imgshape": "img-circle",
-			"imgwidth": "304"
+			"imgpath": "src/theme/assets/img/cities/sanfran.jpg",
+			"imgwidth": "300",
+			"panelstyle": "panel-success"
 		},
 		{
-			"bottomtext": "Cinque Terre",
-			"colclass": "col-xs-4",
+			"bodystyle": "panel-body--rmpadding",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
+			"footer": "Perpidium11 - 27cm x 25cm",
+			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
 			"imgheight": "236",
-			"imgpath": "src/theme/assets/img/cities/cinqueterre.jpg",
-			"imgshape": "img-circle",
-			"imgwidth": "304"
-		}
-	],
-	"thumbnails": [
-		{
-			"bottomtext": "Cinque Terre",
-			"colclass": "col-xs-3",
-			"imgalt": "Cinque Terre",
-			"imgheight": "140",
-			"imgpath": "src/theme/assets/img/cities/cinqueterre.jpg",
-			"imgshape": "img-thumbnail",
-			"imgwidth": "140"
+			"imgpath": "src/theme/assets/img/cities/sanfran.jpg",
+			"imgwidth": "300",
+			"panelstyle": "panel-success"
 		},
 		{
-			"bottomtext": "Cinque Terre",
-			"colclass": "col-xs-3",
+			"bodystyle": "panel-body--rmpadding",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
+			"footer": "Perpidium11 - 27cm x 25cm",
+			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
-			"imgheight": "140",
-			"imgpath": "src/theme/assets/img/cities/cinqueterre.jpg",
-			"imgshape": "img-thumbnail",
-			"imgwidth": "140"
+			"imgheight": "236",
+			"imgpath": "src/theme/assets/img/cities/sanfran.jpg",
+			"imgwidth": "300",
+			"panelstyle": "panel-success"
 		},
 		{
-			"bottomtext": "Cinque Terre",
-			"colclass": "col-xs-3",
+			"bodystyle": "panel-body--rmpadding",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
+			"footer": "Perpidium11 - 27cm x 25cm",
+			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
-			"imgheight": "140",
-			"imgpath": "src/theme/assets/img/cities/cinqueterre.jpg",
-			"imgshape": "img-thumbnail",
-			"imgwidth": "140"
+			"imgheight": "236",
+			"imgpath": "src/theme/assets/img/cities/sanfran.jpg",
+			"imgwidth": "300",
+			"panelstyle": "panel-success"
 		},
 		{
-			"bottomtext": "Cinque Terre",
-			"colclass": "col-xs-3",
+			"bodystyle": "panel-body--rmpadding",
+			"columns": "col-lg-2 col-md-6 col-xs-6",
+			"footer": "Perpidium11 - 27cm x 25cm",
+			"footerstyle": "panel-footer--bgcolor",
 			"imgalt": "Cinque Terre",
-			"imgheight": "140",
-			"imgpath": "src/theme/assets/img/cities/cinqueterre.jpg",
-			"imgshape": "img-thumbnail",
-			"imgwidth": "140"
+			"imgheight": "236",
+			"imgpath": "src/theme/assets/img/cities/sanfran.jpg",
+			"imgwidth": "300",
+			"panelstyle": "panel-success"
 		}
 	]
 }

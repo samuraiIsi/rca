@@ -1,6 +1,6 @@
-<div>
+<div class="carousel slide" data-ride="carousel">
 	<div uib-carousel active="active" interval="myInterval" no-wrap="false">
-		<div uib-slide ng-repeat="slide in slidedata track by slide.id" index="slide.id">
+		<div class="item" uib-slide ng-repeat="slide in slidedata track by slide.id" index="slide.id">
 			<img ng-src="{{slide.image}}" style="margin: auto;">
 			<div class="carousel-caption">
 				<div class="pull-left text-left">

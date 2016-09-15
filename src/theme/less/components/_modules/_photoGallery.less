@@ -28,7 +28,7 @@ ul{
 }
 
 .viewwindow {
-    width:405px; // 400px
+    width: 550px; // 400px
     height:307px;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -58,6 +58,7 @@ ul{
     //background-color:#fff;
     //width:400px;
     padding:10px;
+    margin-top: 20px;
     //border-radius:8px;
     //float:left;
 }
@@ -97,30 +98,25 @@ ul{
     border-radius:8px;
     float:left;
 }
-.right-side {
-    float: right;
-    right: 2%;
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
     z-index: 1;
 }
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: red;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  z-index: 1;
-}
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }

@@ -1,17 +1,17 @@
 {
-	"titlePage": "Template5",
+	"titlePage": "boligrafos",
 	"panels": [
 		{
 			"header": "Panel Header 2",
 			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
-			"columns": "col-lg-12 col-xs-1",
+			"columns": "col-lg-12 col-xs-12",
 			"panelstyle": "panel-danger"
 		}
 	],
 	"gallery": [
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-6",
+			"columns": "col-lg-6 col-xs-12",
 			"header": "Perpidium - 27cm x 25cm",
 			"imgalt": "Cinque Terre",
 			"imgheight": "215",
@@ -21,7 +21,7 @@
 		},
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-6",
+			"columns": "col-lg-6 col-xs-12",
 			"header": "Perpidium - 27cm x 25cm",
 			"imgalt": "Cinque Terre",
 			"imgheight": "215",
@@ -31,7 +31,7 @@
 		},
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-6",
+			"columns": "col-lg-6 col-xs-12",
 			"header": "Perpidium - 27cm x 25cm",
 			"imgalt": "Cinque Terre",
 			"imgheight": "215",
@@ -41,7 +41,7 @@
 		},
 		{
 			"bodystyle": "panel-body--rmpadding",
-			"columns": "col-xs-6",
+			"columns": "col-lg-6 col-xs-12",
 			"header": "Perpidium - 27cm x 25cm",
 			"imgalt": "Cinque Terre",
 			"imgheight": "215",

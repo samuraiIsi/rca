@@ -22,6 +22,7 @@
                 imgpath: "@",
                 imgshape: "@",
                 imgwidth: "@",
+                linkpages: "@",
                 panelstyle: "@"
             }
         };

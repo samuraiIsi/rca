@@ -10,6 +10,11 @@
 	</article>
 </div>
 <hr />
+<div ng-repeat="panel in template6.model.element.panelsheader" ng-if="$index % 6 === 0" class="row">
+<article ng-repeat="panel in template6.model.element.panelsheader.slice($index, ($index + 4 > template6.model.element.panelsfooter.length ? template6.model.element.panelsfooter.length : $index+6))">
+	<panel imgalt="{{panel.imgalt}}" body="{{panel.body}}" bodystyle="{{panel.bodystyle}}" colclass="{{panel.columns}}" panelstyle="{{panel.panelstyle}}" linkpages="{{panel.linkpages}}" imgheight="{{panel.imgheight}}" imgpath="{{panel.imgpath}}" imgshape="{{panel.imgshape}}" imgwidth="{{panel.imgwidth}}" header="{{panel.header}}"></panel>
+</article>
+</div>
 <div class="row row-margin">
 	<article ng-repeat="ele in template6.model.element.texts">
 			<text-only colclass="{{ele.colclass}}" titletextclass="{{ele.titletextclass}}" titletext="{{ele.titletext}}" spantext="{{ele.spantext}}" bodytext="{{ele.bodytext}}"></text-only>

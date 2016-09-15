@@ -11,6 +11,7 @@
             templateUrl: '/src/app/shared/photoGallery/photoGallery.view.html',
             scope: {
                 gallerydata: "=",
+                descriptiondata: "=",
                 selected: "=",
                 side: "="
                 // desc: "="

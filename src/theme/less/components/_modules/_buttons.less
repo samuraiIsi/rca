@@ -24,7 +24,8 @@
 }
 .btn--oval {
 	border-radius: 350px;
-    margin: 5%;
+	font-weight: 700;
+    margin: 2.5%;
     padding: 15px 30px;
     &.small {
     	.sizing-btn(0 5px, 50%);
@@ -32,4 +33,11 @@
     &.btn--width {
     	width: 150px;
     }
+}
+.btn-circular {
+	.sizing-btn(0 3px 0 4px, 50%);
+	&.cross-info {
+		background-color: red;
+		color: #fff;
+	}
 }

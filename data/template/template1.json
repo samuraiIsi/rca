@@ -1,22 +1,22 @@
 {
-	"titlePage": "Template1",
+	"titlePage": "Carteleria",
 	"panels": [
 		{
 			"header": "Panel Header 1",
 			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
-			"columns": "col-lg-4 col-xs-1",
+			"columns": "col-lg-4 col-md-6",
 			"panelstyle": "panel-primary"
 		},
 		{
 			"header": "Panel Header 1",
 			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
-			"columns": "col-lg-4 col-xs-1",
+			"columns": "col-lg-4 col-md-6",
 			"panelstyle": "panel-primary"
 		},
 		{
 			"header": "Panel Header 1",
 			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget auctor enim. In aliquam suscipit dictum. Nullam semper gravida sagittis. Vestibulum laoreet ipsum odio, aliquam placerat odio imperdiet sed.",
-			"columns": "col-lg-4 col-xs-1",
+			"columns": "col-lg-4 col-md-6",
 			"panelstyle": "panel-primary"
 		}
 	],

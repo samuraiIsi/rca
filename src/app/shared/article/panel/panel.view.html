@@ -1,8 +1,17 @@
 <div class="{{colclass}}">
     <div class="panel {{panelstyle}}">
-		<div class="panel-heading" ng-if="header.length">{{header}}</div>
-		<div class="panel-body" ng-if="body.length">{{body}}</div>
-		<div class="panel-body {{bodystyle}}" ng-if="imgpath.length"><img ng-src="{{imgpath}}" class="{{imgshape}} img-responsive" alt="{{imgalt}}" width="{{imgwidth}}" height="{{imgheight}}"></div>
-		<div class="panel-footer {{footerstyle}}" ng-if="footer.length">{{footer}}</div>
+        <div class="panel-heading" ng-if="header.length">{{header}}</div>
+        <div class="panel-body" ng-if="body.length">{{body}}</div>
+        <div class="panel-body {{bodystyle}}" ng-if="imgpath.length">
+            <a ng-href="{{linkpages}}" class="portfolio-link" >
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="glyphicon glyphicon-zoom-in zoom-in--medium"></i>
+                    </div>
+                </div> 
+                <img ng-src="{{imgpath}}" class="{{imgshape}} img-responsive" alt="{{imgalt}}" max-width="{{imgwidth}}" height="{{imgheight}}">
+            </a>
+        </div>
+        <div class="panel-footer {{footerstyle}}" ng-if="footer.length">{{footer}}</div>
     </div>
 </div>

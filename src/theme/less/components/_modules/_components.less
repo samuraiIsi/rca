@@ -14,6 +14,12 @@
 .padding-st {
 	padding: @standardDistance;
 }
+.padding-section {
+	padding: (@standardDistance * 10) 0;
+}
+.padding-section--half {
+	padding: (@standardDistance * 5) 0;
+}
 .img-c-border {
 	& .--grey-#f2f2f2 {
 		border: solid 5px #f2f2f2;
@@ -22,4 +28,41 @@
 .center-element {
 	margin: 0 auto;
 	width: 150px;
+}
+#top {
+	position: relative;
+	margin: 0 auto; 
+	max-width: 650px;
+	display: block;
+}
+#scrollArea {
+  height: 100%;
+  overflow: auto;
+}
+.separator {
+	margin: 15px 0;
+}
+.section-heading {
+	margin-top: 0;
+}
+.iconText-box {
+	max-width: 400px;
+	margin: 50px auto 0;
+	p {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+}
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0px;
+}
+.imgThreeCols-anchor {
+	position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.glyphicon-zoom-in.zoom-in--medium {
+	font-size: 45px;
 }

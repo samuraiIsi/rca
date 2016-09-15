@@ -20,6 +20,7 @@
 			'shared.presentationLg',
 			'shared.presentationXlg',
 			'shared.scrollAnimated',
+			'shared.smoothScroll',
 			'shared.separatorSections',
 			'shared.textOnly'
 		]);
