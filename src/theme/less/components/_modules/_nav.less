@@ -17,7 +17,6 @@
 		padding: 10px;
 		border-top: solid 1px white;
 		a {
-			//color: #fff;
 			display: block;
 			position: relative;
 		}
@@ -25,4 +24,32 @@
 }
 .activo {
 	background-color: red;
+	border-radius: 4px;
+	a, a:focus, a:active {
+		color: #fff;
+	}
+}
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li:last-child {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li:last-child {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 }

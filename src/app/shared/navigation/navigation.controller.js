@@ -17,8 +17,12 @@
         }
 
         $scope.navClass = function (page) {
-            var currentRoute = $location.path().substring(1) || 'home';
+            var currentRoute = $location.path().substring(1) || 'inicio';
             return page === currentRoute ? 'activo' : '';
+        };
+
+        $scope.convertIconMenu = function(x) {
+            $scope.x = "change";
         };
     }
 

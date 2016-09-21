@@ -2,12 +2,6 @@ angular.module('app')
 .config(function($stateProvider, $urlRouterProvider){
 	$urlRouterProvider.otherwise('/home');
 	$stateProvider
-	.state('inicio', {
-		url: '/home',
-		templateUrl: 'src/app/components/home/home.view.html',
-		controller: 'HomeController',
-		controllerAs: 'home'
-	})
 	.state('servicios', {
 		url: '/servicios',
 		templateUrl: 'src/app/components/two-columns/two-columns.view.html',
@@ -67,7 +61,7 @@ angular.module('app')
 		controller: 'Template8Controller',
         controllerAs: 'template8'
 	})
-	.state('home', {
+	.state('inicio', {
 		url: '/',
 		templateUrl: 'src/app/components/home/home.view.html',
 		controller: 'HomeController',
