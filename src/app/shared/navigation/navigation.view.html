@@ -1,5 +1,5 @@
 <ul class="nav nav-pills navbar-right collapse navbar-collapse" > <!--auto-active--> 
-	<li role="presentation" ng-repeat="linkNav in navElements">
+	<li role="presentation" ng-repeat="linkNav in navElements" ng-class="navClass('{{linkNav}}')">
 		<a ui-sref="{{linkNav}}" ng-click="navigation.toTop()" class="text-capitalize">{{linkNav}}</a>
 	</li>
 </ul>
