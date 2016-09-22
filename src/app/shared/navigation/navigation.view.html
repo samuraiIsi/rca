@@ -1,12 +1,5 @@
-<div>
-	<ul class="nav nav-pills navbar-right collapse navbar-collapse" ng-class="collapse-in"> <!--auto-active--> 
-		<li role="presentation" ng-repeat="linkNav in navElements" ng-class="navClass('{{linkNav}}')">
-			<a ui-sref="{{linkNav}}" ng-click="navigation.toTop()" class="text-capitalize">{{linkNav}}</a>
-		</li>
-	</ul>
-	<div class="container-btn-menu" ng-class="x" ng-click="convertIconMenu(this)">
-	  <div class="bar1"></div>
-	  <div class="bar2"></div>
-	  <div class="bar3"></div>
-	</div>
-</div>
+<ul class="nav nav-pills navbar-right collapse navbar-collapse topnav" ng-class="collapseIn"> <!--auto-active--> 
+	<li role="presentation" ng-repeat="linkNav in navElements" ng-class="navClass('{{linkNav}}')">
+		<a ui-sref="{{linkNav}}" ng-click="navigation.toTop()" class="text-capitalize">{{linkNav}}</a>
+	</li>
+</ul>

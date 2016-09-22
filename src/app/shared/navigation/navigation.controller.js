@@ -7,6 +7,9 @@
     	var vm = this;
         vm.model = {};
 
+        $scope.collapseIn = "";
+        $scope.heightHeaderMain = false;
+
         NavigationService.all()
 		.success(function(data){
 			$scope.navElements = data;
@@ -21,11 +24,16 @@
             return page === currentRoute ? 'activo' : '';
         };
 
-        $scope.convertIconMenu = function(x) {
-            $scope.x = "change";
+        $scope.convertBtnMenu = function(datanav) {
+            $scope.btnMenuClass = (datanav.btnMenuClass === "change") ? "" : "change"; 
         };
-    }
 
+        $scope.dropDownTopMenu = function() {
+            $scope.collapseIn = ($scope.collapseIn === "in") ? "" : "in";
+            $scope.heightHeaderMain = !($scope.heightHeaderMain);
+        };
+
+    }
     angular
         .module('navigation.controller')
         .controller('NavigationController', NavigationController);

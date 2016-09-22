@@ -11,7 +11,7 @@
             if(vm.model.isBelowPageFold() || 'fadeInUp' === $scope.buttonAnimation) {
                 if($scope.buttonAnimation = vm.model.isBelowPageFold()){
                     $scope.buttonAnimation = 'fadeInUp';
-                    $scope.logoAnimation = 'navbar-header small logo';
+                    $scope.logoAnimation = 'small logo'; // navbar-header 
                     $scope.navigationBgAnimation = 'upper underlay';   
                     $scope.navigationAnimation = 'movedown navbar';
                 }else{

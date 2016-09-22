@@ -182,7 +182,7 @@
   var fullscreenIntro = function() {
     var fullscreen = document.querySelectorAll('.fullscreen');
     for (var i = 0; i < fullscreen.length; i++) {
-      fullscreen[i].style.height = getViewportSize().height + 1 + 'px';
+      fullscreen[i].style.height = getViewportSize().height / 2 + 1 + 'px';
     }
   };
   fullscreenIntro();
