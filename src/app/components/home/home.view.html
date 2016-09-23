@@ -25,7 +25,7 @@
 		<div class="row">
 			<article ng-repeat="ele in home.model.element.notes" detect-view-port>
 				<div class="col-lg-3 col-md-6 text-center">
-					<icon-text subheader="{{ele.subTitleInfoBanFour}}" header="{{ele.titleInfoBanFour}}" icon="{{ele.infoIconBanFour}}"></icon-text>
+					<icon-text revealernumber="{{ele.revealernumber}}" subheader="{{ele.subTitleInfoBanFour}}" header="{{ele.titleInfoBanFour}}" icon="{{ele.infoIconBanFour}}"></icon-text>
 				</div>
 			</article>
 		</div>
@@ -40,29 +40,6 @@
 		</div>
 	</div>
 </section>
-<div class="container fullscreen">
-	<div class="container container--circles" detect-view-port>
-		<div class="circle c1 revealer">
-			<div class="circle__inner">
-			  01
-			</div>
-		</div>
-		<div class="circle c2 revealer">
-			<div class="circle__inner">
-			  02
-			</div>
-		</div>
-		<div class="circle c3 revealer">
-			<div class="circle__inner">
-			  03
-			</div>
-		</div>
-	</div>
-	<a class="btn" href="http://xtianmiller.com/notes/animating-elements-when-they-appear-in-viewport/" target="_blank">
-	    <span class="row1">Read Article</span>
-	    <span class="row2">Read Article</span>
-	</a>
-</div>
 <aside class="portafolioInfo padding-section--half">
 	<div class="container text-center">
 		<h2>{{home.model.element.portafolioInfoTitle}}</h2>

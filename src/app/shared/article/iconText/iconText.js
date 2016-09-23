@@ -13,7 +13,8 @@
             scope: {
                 header: "@",
                 subheader: "@",
-                icon: "@"
+                icon: "@",
+                revealernumber: "@"
             }
         };
     }

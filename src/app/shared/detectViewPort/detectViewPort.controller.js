@@ -143,9 +143,9 @@
       for (var i = 0; i < revealer.length; i++) {
         if (checkVisibility(revealer[i])) {
           revealer[i].classList.add('revealed');
-        } else {
-          revealer[i].classList.remove('revealed');
-        }
+        }// else {
+        //   revealer[i].classList.remove('revealed');
+        // }
       }
     };
 
