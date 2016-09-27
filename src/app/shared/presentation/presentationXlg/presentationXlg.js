@@ -14,7 +14,8 @@
                 ctatext: "@",
                 btnclass: "@",
                 header: "@",
-                subheader: "@"
+                subheader: "@",
+                revealerclass: "@"
             }
         };
     }

@@ -2,7 +2,7 @@
 <section id="inicioHeader" class="section-pt">
   	<div class="container --rm-padding-lr">
   		<div class="header-content">
-			<presentation-xlg header="{{home.model.element.title}}" subheader="{{home.model.element.subTitle}}" ctatext="{{home.model.element.ctaTextPresentXlg}}" btnclass="{{home.model.element.btnClassPresentXlg}}"></presentation-xlg>
+			<presentation-xlg header="{{home.model.element.title}}" subheader="{{home.model.element.subTitle}}" ctatext="{{home.model.element.ctaTextPresentXlg}}" revealerclass="{{home.model.element.revealerClass}}" btnclass="{{home.model.element.btnClassPresentXlg}}"></presentation-xlg>
 		</div>
 	</div>
 </section>
@@ -11,7 +11,9 @@
 		<div class="row">
 			<div class="text-center col-lg-8 col-lg-offset-2">
 				<presentation-lg subheader="{{home.model.element.subTitlePresentLg}}" header="{{home.model.element.titlePresentLg}}"></presentation-lg>
-				<a type="button" href="#contacto" class="{{home.model.element.btnNosotrosCtaText}}">{{home.model.element.nosotrosCtaText}}</a>
+				<div class="{{home.model.element.revealerClass}} revealer">
+					<a type="button" href="#contacto" class="{{home.model.element.btnNosotrosCtaText}}">{{home.model.element.nosotrosCtaText}}</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -43,7 +45,9 @@
 <aside class="portafolioInfo padding-section--half">
 	<div class="container text-center">
 		<h2>{{home.model.element.portafolioInfoTitle}}</h2>
-		<a type="button" href="#" class="btn btn-default btn--oval text-uppercase">{{home.model.element.portafolioInfoCtaText}}</a>
+		<div class="{{home.model.element.revealerClass}} revealer">
+			<a type="button" href="#" class="btn btn-default btn--oval text-uppercase">{{home.model.element.portafolioInfoCtaText}}</a>
+		</div>
 	</div>
 </aside>
 </div>

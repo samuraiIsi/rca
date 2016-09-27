@@ -17,3 +17,63 @@
 .iconText-box .glyphicon-animation.c4 {
   transition-delay: 0.5s;
 }
+.in.out {
+	-webkit-animation: dropDownUp 250ms linear; /* Chrome, Safari, Opera */
+    animation: dropDownUp 250ms linear;
+    height: 0;
+}
+@-webkit-keyframes dropDownUp {
+    from {height: 205px; display: block;}
+    to {height: 0; display: none;}
+}
+
+/* Standard syntax */
+@keyframes dropDownUp {
+    from {height: 205px; display: block;}
+    to {height: 0; display: none;}
+}
+.in {
+	-webkit-animation: dropDownIn 250ms linear; /* Chrome, Safari, Opera */
+    animation: dropDownIn 250ms linear;
+}
+@-webkit-keyframes dropDownIn {
+    from {height: 0;}
+    to {height: 205px;}
+}
+
+/* Standard syntax */
+@keyframes dropDownIn {
+    from {height: 0;}
+    to {height: 205px;}
+}
+.heightHeaderDynamic {
+    -webkit-animation: heightHeaderIn 250ms linear; /* Chrome, Safari, Opera */
+    animation: heightHeaderIn 250ms linear; 
+}
+@-webkit-keyframes heightHeaderIn {
+    from {height: 0;}
+    to {height: 205px;}
+}
+
+/* Standard syntax */
+@keyframes heightHeaderIn {
+    from {height: 0;}
+    to {height: 205px;}
+}
+.heightHeaderDynamic-disable {
+    -webkit-animation: disable 250ms linear; /* Chrome, Safari, Opera */
+    animation: disable 250ms linear;
+}
+@-webkit-keyframes disable {
+    from {height: 205px;}
+    to {height: 0;}
+}
+
+/* Standard syntax */
+@keyframes disable {
+    from {height: 205px;}
+    to {height: 0;}
+}
+.topDistance {
+  pageYOffset: 500px;
+}

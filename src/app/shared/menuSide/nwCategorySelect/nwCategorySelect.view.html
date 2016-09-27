@@ -1,3 +1,6 @@
-<ul class="nav nav-pills nav-stacked navig-side">
+<ul class="nav nav-pills collapse navbar-collapse navig-side" ng-class="collapseSubIn">
+<!-- <ul class="nav nav-pills nav-stacked navig-side" ng-class="{heightSubMenuDynamic: heightHeaderMain}"> 
+ [{heightSubMenuDynamic: heightHeaderMain}, collapseIn]"
+-->
 	<nw-category-item ng-repeat="category in categories" category="category"></nw-category-item>
 </ul>

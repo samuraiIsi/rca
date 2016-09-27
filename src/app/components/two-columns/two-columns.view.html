@@ -2,7 +2,16 @@
 
     <aside class="section-pt">
     	<div class="sidenav">
+            <div style="padding: 15px">
+            <div class="container-btn-menu submenu-btn-products pull-left" ng-class="[btnSubMenuClass, btnMenuAnimation]" ng-click="convertBtnSubMenu(this)">
+                <a href="javascript:void(0);" ng-click="dropDownSubMenuProducts()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </a>
+            </div>
     		<h2 class="text-center">Productos</h2>
+            </div>
     		<nw-category-select></nw-category-select>
     	</div>
     </aside>

@@ -3,5 +3,8 @@
 	"email" : "rca@publicidad.com",
 	"telefonoIcon" : "glyphicon glyphicon-earphone",
 	"emailIcon" : "glyphicon glyphicon-envelope",
-	"footerTitleText" : "Contacta Con Nosotros"
+	"footerTitleText" : "Contacta Con Nosotros",
+	"iconAnimeClass": "glyphicon-animation c1",
+	"iconAnimeClassTwo": "glyphicon-animation c2"
+
 }

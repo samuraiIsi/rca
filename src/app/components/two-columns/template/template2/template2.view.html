@@ -14,9 +14,9 @@
 	</article>
 </div>
 <div class="row text-center row-margin">
-	<article ng-repeat="ele in template2.model.element.notes">
+	<article ng-repeat="ele in template2.model.element.notes" detect-view-port>
 		<div class="col-lg-4 col-md-6 text-center">
-			<icon-text subheader="{{ele.subTitleInfoBanFour}}" header="{{ele.titleInfoBanFour}}" icon="{{ele.infoIconBanFour}}"></icon-text>
+			<icon-text revealernumber="{{ele.revealerClass}}" subheader="{{ele.subTitleInfoBanFour}}" header="{{ele.titleInfoBanFour}}" icon="{{ele.infoIconBanFour}}"></icon-text>
 		</div>
 	</article>
 </div>

@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row" id="carteleria">
 	<div class="col-lg-12">
 		<h1 class="page-title">{{template1.model.element.titlePage}}</h1>
 	</div>
@@ -15,9 +15,9 @@
 </div>
 
 <div class="row text-center row-margin">
-	<article ng-repeat="ele in template1.model.element.notes">
+	<article ng-repeat="ele in template1.model.element.notes" detect-view-port>
 		<div class="col-lg-4 col-md-6 text-center">
-			<icon-text subheader="{{ele.subTitleInfoBanFour}}" header="{{ele.titleInfoBanFour}}" icon="{{ele.infoIconBanFour}}"></icon-text>
+			<icon-text revealernumber="{{ele.revealernumber}}" subheader="{{ele.subTitleInfoBanFour}}" header="{{ele.titleInfoBanFour}}" icon="{{ele.infoIconBanFour}}"></icon-text>
 		</div>
 	</article>
 </div>
