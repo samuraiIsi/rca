@@ -29,33 +29,33 @@ angular.module('app')
         controllerAs: 'template3'
 	})
 	.state('servicios.llaveros', {
-		url: '/servicios/llaveros',
+		url: '/llaveros',
 		templateUrl: 'src/app/components/two-columns/template/template4/template4.view.html',
 		controller: 'Template4Controller',
         controllerAs: 'template4'
 	})
 	.state('servicios.boligrafos', {
-		url: '/servicios/boligrafos',
+		url: '/boligrafos',
 		templateUrl: 'src/app/components/two-columns/template/template5/template5.view.html',
 		//parent: two-columns,
 		controller: 'Template5Controller',
         controllerAs: 'template5'
 	})
 	.state('servicios.pegatinas', {
-		url: '/servicios/pegatinas',
+		url: '/pegatinas',
 		templateUrl: 'src/app/components/two-columns/template/template6/template6.view.html',
 		//parent: two-columns,
 		controller: 'Template6Controller',
         controllerAs: 'template6'
 	})
 	.state('servicios.camisetas', {
-		url: '/servicios/camisetas',
+		url: '/camisetas',
 		templateUrl: 'src/app/components/two-columns/template/template7/template7.view.html',
 		controller: 'Template7Controller',
         controllerAs: 'template7'
 	})
 	.state('servicios.otros', {
-		url: '/servicios/otros',
+		url: '/otros',
 		templateUrl: 'src/app/components/two-columns/template/template8/template8.view.html',
 		//parent: two-columns,
 		controller: 'Template8Controller',

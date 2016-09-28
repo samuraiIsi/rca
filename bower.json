@@ -1,0 +1,29 @@
+{
+  "name": "rca-publicidad",
+  "description": "responsive web with less",
+  "main": "gulpfile.js",
+  "authors": [
+    "IMG"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "less",
+    "gulp",
+    "bootstrap",
+    "angular",
+    "html5",
+    "css3"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-animate": "^1.5.8"
+  }
+}

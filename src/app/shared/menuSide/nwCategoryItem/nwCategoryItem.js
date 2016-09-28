@@ -15,15 +15,14 @@
             require: '^nwCategorySelect',
             link: function(scope, element, attrs, NwCategorySelectCont){
                 scope.makeActive = function(){
-                    $window.scrollTo(0, -100);
+                    var numberForWidthScreen, widthScreen = screen.width;
+                    numberForWidthScreen = (widthScreen >= 737) ? -100 : 420;
+                    $window.scrollTo(0, numberForWidthScreen);
                     NwCategorySelectCont.setActiveCategory(scope.category);
                 };
                 scope.categoryActive = function() {
                     return NwCategorySelectCont.getActiveCategory() === scope.category; 
                 };
-                // if(!scope.categoryActive()) {
-                //     return NwCategorySelectCont.getActiveCategory() === scope.category[0]; 
-                // }
             }
         };
     }

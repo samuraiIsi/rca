@@ -7,12 +7,20 @@
         cleanCSS = require('gulp-clean-css'),
         less = require('gulp-less'),
         concat = require('gulp-concat'),
+        rename = require('gulp-rename'),
         loading = require('gulp-load-plugins')();
 
+    var jsFiles = 'src/**/**/**/*.js',
+    jsDest = 'build/src';
+
+
     gulp.task('scripts', function(){
-        return gulp.src('src/**/**/*.js')
+        return gulp.src(jsFiles)
+        .pipe(concat('scripts.js'))
+        .pipe(gulp.dest(jsDest)) 
+        .pipe(rename('scripts.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('build/src'));  
+        .pipe(gulp.dest(jsDest));  
     });
 
     gulp.task('minify', function() {
@@ -33,12 +41,6 @@
         .pipe(gulp.dest('css/'))
     });
 
-    gulp.task('minifyFolders', function () {
-        gulp.src(['src/**/module.js', 'src/**/*.js'])
-        .pipe(concat('app.js'))
-        .pipe(gulp.dest('build/src'));
-    });
-
     gulp.task('build', function(){
         gulp.watch('src/**/*.js', ['scripts']);
         // gulp.watch('src/theme/less/main.less', ['less']);
@@ -55,5 +57,5 @@
         });
     });
 
-    gulp.task('default', ['scripts', 'minifyFolders', 'less', 'minify', 'minify-css', 'build', 'serve']);
+    gulp.task('default', ['scripts', 'less', 'minify', 'minify-css', 'build', 'serve']);
 })();
