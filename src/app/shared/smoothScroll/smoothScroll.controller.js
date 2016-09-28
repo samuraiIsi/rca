@@ -4,9 +4,9 @@
     angular.module('smoothScroll.controller', []);
 
     function SmoothScrollController($scope, $http, $location, anchorSmoothScroll) {
-    	$scope.gotoElement = function (eID) {
-            anchorSmoothScroll.scrollTo(eID);
-        };
+    	// $scope.gotoElement = function (eID) {
+     //        anchorSmoothScroll.scrollTo(eID);
+     //    };
     }
 
     angular

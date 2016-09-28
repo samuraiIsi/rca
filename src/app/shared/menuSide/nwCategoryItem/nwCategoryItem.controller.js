@@ -3,7 +3,7 @@
 
     angular.module('nwCategoryItem.controller', []);
 
-    function NwCategoryItemController($scope) {
+    function NwCategoryItemController() {
     
     }
 
@@ -11,9 +11,3 @@
         .module('nwCategoryItem.controller')
         .controller('NwCategoryItemController', NwCategoryItemController);
 })();
-
-// angular.module('nwCategoryItem.controller', []);
-
-//     function NwCategoryItemController($scope) {
-    	
-//     }

@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('header', []);
+    angular.module('header', ['header.controller']);
 
     function header() {
         return {

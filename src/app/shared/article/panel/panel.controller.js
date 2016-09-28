@@ -3,7 +3,7 @@
 
     angular.module('panel.controller', []);
 
-    function PanelController($scope) {
+    function PanelController() {
         
     }
     angular

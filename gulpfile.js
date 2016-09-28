@@ -18,9 +18,10 @@
         return gulp.src(jsFiles)
         .pipe(concat('scripts.js'))
         .pipe(gulp.dest(jsDest)) 
-        .pipe(rename('scripts.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest(jsDest));  
+        .pipe(rename('scripts.min.js'))
+        .pipe(gulp.dest(jsDest));
+        //.on('error', gutil.log);
     });
 
     gulp.task('minify', function() {

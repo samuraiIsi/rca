@@ -3,7 +3,7 @@
 
     angular.module('template4.controller', []);
 
-    function Template4Controller($scope, TwoColumnsService) {
+    function Template4Controller(TwoColumnsService) {
 		var vm = this;
 		vm.model = {};
 

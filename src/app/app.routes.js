@@ -1,5 +1,5 @@
 angular.module('app')
-.config(function($stateProvider, $urlRouterProvider){
+.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
 	$urlRouterProvider.otherwise('/');
 	$stateProvider
 	.state('servicios', {
@@ -85,4 +85,4 @@ angular.module('app')
 		controller: 'ContactController',
 		controllerAs: 'contact'
 	});
-});
+}]);

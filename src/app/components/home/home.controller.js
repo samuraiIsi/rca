@@ -11,7 +11,9 @@
 		.success(function(data){
 			vm.model.element = data;
 		});
+        this.$inject = ['HomeService'];
     }
+
     
     angular
         .module('home.controller')

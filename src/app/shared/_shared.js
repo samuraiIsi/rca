@@ -6,7 +6,7 @@
 			'shared.btnToTop',
 			'shared.carousel',
 			'shared.detectViewPort',
-			'shared.headerBg',
+			//'shared.headerBg',
 			'shared.hiddenBannerThree',
 			'shared.iconText',
 			'shared.imagesThreeCol',
