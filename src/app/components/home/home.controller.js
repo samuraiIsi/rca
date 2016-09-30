@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-
+    HomeController.$inject = ["HomeService"];
     angular.module('home.controller', []);
 
     function HomeController(HomeService) {
@@ -11,7 +11,6 @@
 		.success(function(data){
 			vm.model.element = data;
 		});
-        this.$inject = ['HomeService'];
     }
 
     

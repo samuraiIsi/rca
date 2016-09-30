@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('footer.controller', []);
+    angular.module('footer.controller', ['footerServ.service']);
 
     function FooterController($scope, FooterService) {
     	FooterService.all()
