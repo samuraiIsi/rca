@@ -17,6 +17,7 @@
     "gulp-less": "^3.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-load-plugins": "^1.2.0",
+    "gulp-ng-annotate": "^2.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.3",
     "proxy-middleware": "^0.15.0",
