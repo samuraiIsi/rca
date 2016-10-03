@@ -12,11 +12,15 @@
         loading = require('gulp-load-plugins')();
 
     var jsFiles = 'src/**/**/**/*.js',
-    jsDest = 'build/src';
-
+    htmlFiles = 'src/**/**/**/*.html',
+    vendorFiles = 'vendor/**/**/*.js',
+    vendorDest = 'build/',
+    jsDest = 'build/src',
+    htmlDst = 'build/src';
 
     gulp.task('scripts', function(){
         return gulp.src(jsFiles)
+        .pipe(gulp.dest(jsDest)) 
         .pipe(concat('scripts.js'))
         .pipe(ngAnnotate({add: true}))
         .pipe(gulp.dest(jsDest)) 
@@ -26,17 +30,24 @@
         //.on('error', gutil.log);
     });
 
+    gulp.task('vendor', function() {
+        return gulp.src(vendorFiles)
+        .pipe(concat('vendor.js'))
+        .pipe(gulp.dest(vendorDest));
+    });
+
     gulp.task('minify', function() {
-      return gulp.src('src/*.html')
+        return gulp.src(htmlFiles)
         .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(gulp.dest('build/src'))
+        .pipe(concat('templates-app.js'))
+        .pipe(gulp.dest(htmlDst));
     });
 
     gulp.task('less', function () {
         gulp.src('src/theme/less/main.less')
         .pipe(less())
         .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(gulp.dest('css/'))
+        .pipe(gulp.dest('css/'));
     });
 
     gulp.task('build', function(){
