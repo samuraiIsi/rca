@@ -3,6 +3,7 @@
 
 	angular
 		.module('common.components', [
+			'components.catalogos',
 			'components.contact',
 			'components.home',
 			'components.promociones',

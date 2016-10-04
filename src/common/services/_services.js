@@ -3,6 +3,7 @@
     
     angular.module('common.services', [
     	'anchorSmoothScroll.service',
+        'catalogosServ.service',
     	'categoryServ.service',
         'footerServ.service',
         'homeServ.service',

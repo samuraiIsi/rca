@@ -2,45 +2,35 @@
 	<div class="contact__map">
         <div id="map"></div>
     </div>
-	<div class="container container--form clearfix">
-		<form name="contactForm" class="contact-form" ng-submit="contactForm(contactForm.$valid)" novalidate>
-            <div class="row row-margin">
-                <div class="col-xs-12">
-                    <div class="form-group" ng-class="{ 'has-error' : contactForm.username.$invalid && !contactForm.username.$pristine, 'has-success': contactForm.username.$valid }">
-                        <label for="username">Nombre</label>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                            <input class="form-control s-input-animated" type="text" name="username" placeholder="Username" ng-model="contact.model.username" required>
-                        </div>
-                        <span class="help-block" ng-show="contactForm.username.$error.required && contactForm.username.$dirty">
-                            Username is a required field
-                        </span>
-                    </div>
-                    <div class="form-group" ng-class="{'has-error': contactForm.email.$dirty && !contactForm.email.$valid, 'has-success': contactForm.email.$valid}">
-                    	<label for="email">*Email:</label>
-                    	<div class="input-group">
-                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                            <input class="form-control s-input-animated" ui-validate="{ValidEmail: 'registration.HelperService.isValidEmailAddress($value)'}" type="email" name="email" placeholder="Email" ng-model="contact.model.newUser.email" required>
-                        </div>
-                        <span class="help-block" ng-show="contactForm.email.$error.required && contactForm.email.$dirty">Please enter your full email address</span>
-
-                        <span class="help-block" ng-show="!contactForm.email.$error.required && contactForm.email.$error.ValidEmail && contactForm.email.$dirty || contactForm.email.$invalid && contactForm.email.$dirty">Please enter your email exactly as you see it</span>
-                    </div>
-                    <div class="form-group" ng-class="{'has-error': contactForm.email.$dirty && !contactForm.email.$valid, 'has-success': contactForm.email.$valid}">
-                        <label for="email">*Comentario:</label>
-                        <div class="input-group">
-                            <textarea name="message" rows="10" cols="60"></textarea>
-                        </div>
-                        <span class="help-block" ng-show="contactForm.email.$error.required && contactForm.email.$dirty">Please enter your full email address</span>
-
-                        <span class="help-block" ng-show="!contactForm.email.$error.required && contactForm.email.$error.ValidEmail && contactForm.email.$dirty || contactForm.email.$invalid && contactForm.email.$dirty">Please enter your email exactly as you see it</span>
-                    </div>
-                    <div class="center-element">
-                        <a type="submit" class="btn btn-danger btn--oval btn--width text-uppercase" ng-disabled="contactForm.$invalid">Enviar</a>
-                    </div>
-                </div>          
+   <div class="container container--form">
+		<form name="contactForm" ng-submit="contactForm(contactForm.$valid)" novalidate>
+            <div class="form-group" ng-class="{ 'has-error' : contactForm.username.$invalid && !contactForm.username.$pristine, 'has-success': contactForm.username.$valid }">
+                <label for="username">Nombre</label>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                    <input class="form-control s-input-animated" type="text" name="username" placeholder="Username" ng-model="contact.model.username" required>
                 </div>
-            </form>
-        </div>
-	</div>
+                <span class="help-block" ng-show="contactForm.username.$error.required && contactForm.username.$dirty">
+                    Username is a required field
+                </span>
+            </div>
+            <div class="form-group" ng-class="{'has-error': contactForm.email.$dirty && !contactForm.email.$valid, 'has-success': contactForm.email.$valid}">
+            	<label for="email">*Email:</label>
+            	<div class="input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                    <input class="form-control s-input-animated" ui-validate="{ValidEmail: 'registration.HelperService.isValidEmailAddress($value)'}" type="email" name="email" placeholder="Email" ng-model="contact.model.newUser.email" required>
+                </div>
+                <span class="help-block" ng-show="contactForm.email.$error.required && contactForm.email.$dirty">Please enter your full email address</span>
+
+                <span class="help-block" ng-show="!contactForm.email.$error.required && contactForm.email.$error.ValidEmail && contactForm.email.$dirty || contactForm.email.$invalid && contactForm.email.$dirty">Please enter your email exactly as you see it</span>
+            </div>
+            <div class="form-group" ng-class="{'has-error': contactForm.email.$dirty && !contactForm.email.$valid, 'has-success': contactForm.email.$valid}">
+                <label for="comentario">*Comentario:</label>
+                <textarea name="message" rows="10" class="form-control"></textarea>
+            </div>
+            <div class="center-element">
+                <a type="submit" class="btn btn-danger btn--oval btn--width text-uppercase" ng-disabled="contactForm.$invalid">Enviar</a>
+            </div>
+        </form>
+    </div>
 </section>

@@ -17,6 +17,7 @@
                 colclass: "@",
                 footer: "@",
                 footerstyle: "@",
+                headingstyle: "@",
                 imgalt: "@",
                 imgheight: "@",
                 imgpath: "@",

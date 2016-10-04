@@ -79,6 +79,12 @@ angular.module('app')
 		controller: 'ProveedoresController',
 		controllerAs: 'proveedores'
 	})
+	.state('catalogos', {
+		url: '/catalogos',
+		templateUrl: 'src/app/components/catalogos/catalogos.view.html',
+		controller: 'CatalogosController',
+		controllerAs: 'catalogos'
+	})
 	.state('contacto', {
 		url: '/contacto',
 		templateUrl: 'src/app/components/contact/contact.view.html',
