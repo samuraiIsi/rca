@@ -1,11 +1,12 @@
 .servicios .servicio1 {
     overflow: hidden;
-    height: 450px;
+    max-height: 370px;
+    margin: 10px 0;
 }
 
-.service img {
-    width: 630px;
-}
+// .service img {
+//     max-width: 310px;
+// }
 
 .servicios .servicio1 .servicio1 {
     padding: 15px;
@@ -23,9 +24,9 @@
 }
 
 .servicios .servicio1:hover .servicio1 {
-    transform: translateY(0px);
-    -webkit-transform: translateY(0px);
-    -ms-transform: translateY(0px);
+    transform: translateY(70px); // 0
+    -webkit-transform: translateY(70px); // 0
+    -ms-transform: translateY(70px); // 0
 }
 
 .servicios .servicio1 .wpb_raw_code {
@@ -40,25 +41,24 @@
     -webkit-transition-delay: 0.1s;
 }
 
-@media only screen and (min-width: 64.063em) {
-    .large-3 {
-        position: relative;
-        width: 25%;
-    }
-}
-
-@media (max-width: 641px) {
-    .servicios .large-3 {
-        width: 100%;
-        position: relative;
-    }
-}
-
-@media (max-width: 641px) {
-    .wpb_wrapper {
-        width: 100%;
-    }
-}
+// @media only screen and (min-width: 64.063em) {
+//     .large-3 {
+//         position: relative;
+//         width: 25%;
+//     }
+// }
+// @media (max-width: 641px) {
+//     .servicios .large-3 {
+//         width: 100%;
+//         position: relative;
+//     }
+// }
+// @media (max-width: 641px) {
+//     .wpb_wrapper {
+//         width: 50%;
+//         margin: 0 auto;
+//     }
+// }
 
 .service {
     text-align: center;
@@ -76,17 +76,17 @@
 .servicios .wpb_content_element p {
     font-size: 12px;
     min-height: 130px;
-    margin: 0 auto 10px
+    margin: 0 auto 10px;
 }
 
 .row.servicios {
     //max-width: 62.5em;
 }
 
-@media (max-width: 641px) {
-    .row.servicios {
-        margin: 0 !important;
-        padding: 0 !important;
-        width: 100% !important;
-    }
-}
+// @media (max-width: 641px) {
+//     .row.servicios {
+//         margin: 0 !important;
+//         padding: 0 !important;
+//         width: 100% !important;
+//     }
+// }
