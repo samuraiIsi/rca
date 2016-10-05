@@ -1,11 +1,11 @@
-(function () {
+(function() {
     'use strict';
 
     angular.module('promociones.controller', []);
 
     function PromocionesController() {
-		var vm = this;
-		vm.model = {};
+        var vm = this;
+        vm.model = {};
 
     }
     angular
