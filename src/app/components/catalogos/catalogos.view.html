@@ -1,17 +1,17 @@
 <section class="section-pt">
-	<div class="container">
-		<div class="well panels panels--orange">
-        <h1 class="text-center title-well">{{catalogos.model.element.titlePage}}</h1>
-    	</div>
-		<div class="row">
-			<article ng-repeat="panel in catalogos.model.element.panels">
-				<panel imgalt="{{panel.imgalt}}" body="{{panel.body}}" bodystyle="{{panel.bodystyle}}" colclass="{{panel.columns}}" panelstyle="{{panel.panelstyle}}" linkpages="{{panel.linkpages}}" imgheight="{{panel.imgheight}}" imgpath="{{panel.imgpath}}" imgshape="{{panel.imgshape}}" imgwidth="{{panel.imgwidth}}" header="{{panel.header}}" headingstyle="{{panel.headingstyle}}" footer="{{panel.footer}}" footerstyle="{{panel.footerstyle}}"></panel>
-			</article>
-		</div>
-		<div class="row">
-		    <div class="carousel-outter">
-		    	<carousel slidedata="catalogos.model.element.slidedata"></carousel>
-		    </div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="well banner banner--orange">
+            <h1 class="text-center title-well">{{catalogos.model.element.titlePage}}</h1>
+        </div>
+        <div class="row">
+            <article ng-repeat="panel in catalogos.model.element.panels">
+                <panel imgalt="{{panel.imgalt}}" body="{{panel.body}}" bodystyle="{{panel.bodystyle}}" colclass="{{panel.columns}}" panelstyle="{{panel.panelstyle}}" linkpages="{{panel.linkpages}}" imgheight="{{panel.imgheight}}" imgpath="{{panel.imgpath}}" imgshape="{{panel.imgshape}}" imgwidth="{{panel.imgwidth}}" header="{{panel.header}}" headingstyle="{{panel.headingstyle}}" footer="{{panel.footer}}" footerstyle="{{panel.footerstyle}}"></panel>
+            </article>
+        </div>
+        <div class="row">
+            <div class="carousel-outter">
+                <carousel slidedata="catalogos.model.element.slidedata"></carousel>
+            </div>
+        </div>
+    </div>
 </section>

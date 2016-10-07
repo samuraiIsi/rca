@@ -12,6 +12,7 @@
 			'common.components',
 			'common.shared',
 			'common.factories',
+			'common.filters',
 			'common.services'
 		]);
 })();

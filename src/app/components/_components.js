@@ -16,6 +16,7 @@
 			'components.template6',
 			'components.template7',
 			'components.template8',
+			'components.templatePromoPage',
 			'components.twoColumns'
 		]);
 })();

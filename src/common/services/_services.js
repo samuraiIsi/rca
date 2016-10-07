@@ -9,6 +9,7 @@
         'homeServ.service',
         'navigationServ.service',
     	'presentationServ.service',
+        'promotionServ.service',
     	'twoColumnsServ.service'
     ]);
 })();

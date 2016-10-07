@@ -3,9 +3,14 @@
 
     angular.module('promociones.controller', []);
 
-    function PromocionesController() {
+    function PromocionesController(PromotionService) {
         var vm = this;
         vm.model = {};
+
+        PromotionService.all()
+		.success(function(data){
+			vm.model.element = data;
+		});
 
     }
     angular

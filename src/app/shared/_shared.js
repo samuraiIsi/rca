@@ -10,6 +10,7 @@
 			'shared.hiddenBannerThree',
 			'shared.iconText',
 			'shared.imagesThreeCol',
+			'shared.imgOverlay',
 			'shared.imgText',
 			'shared.logo',
 			'shared.navigation',

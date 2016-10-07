@@ -73,6 +73,13 @@ angular.module('app')
 		controller: 'PromocionesController',
 		controllerAs: 'promociones'
 	})
+	.state('promociones.hola', {
+		url: '/hola',
+		parent: 'promociones',
+		templateUrl: 'src/app/components/promociones/templatePromotionsPage/templatePromoPage.view.html',
+		controller: 'TemplatePromoPageController',
+		controllerAs: 'templatePromoPage'
+	})
 	.state('proveedores', {
 		url: '/proveedores',
 		templateUrl: 'src/app/components/proveedores/proveedores.view.html',

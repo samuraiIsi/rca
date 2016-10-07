@@ -1,20 +1,18 @@
-.servicios .servicio1 {
-    overflow: hidden;
-    max-height: 370px;
-    margin: 10px 0;
+.container-overlay {
+    position: relative;
+    .wrapper-overlay {
+        overflow: hidden;
+        max-height: 370px;
+        margin: 10px 0;
+    }
 }
-
-// .service img {
-//     max-width: 310px;
-// }
-
-.servicios .servicio1 .servicio1 {
+.container-overlay .wrapper-overlay .wrapper-overlay-text {
     padding: 15px;
     width: 100%;
     height: 250px;
     position: absolute;
     overflow: hidden;
-    top: 0;
+    top: 0; //0
     left: 0;
     transform: translateY(-300px);
     -webkit-transform: translateY(-300px);
@@ -23,70 +21,33 @@
     -webkit-transition: all 0.4s ease;
 }
 
-.servicios .servicio1:hover .servicio1 {
+.container-overlay .wrapper-overlay:hover .wrapper-overlay-text {
     transform: translateY(70px); // 0
     -webkit-transform: translateY(70px); // 0
     -ms-transform: translateY(70px); // 0
 }
 
-.servicios .servicio1 .wpb_raw_code {
+.container-overlay .wrapper-overlay .wrapper-overlay-img {
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
 }
 
-.servicios .servicio1:hover .wpb_raw_code {
+.container-overlay .wrapper-overlay:hover .wrapper-overlay-img {
     transform: translateY(450px);
     -webkit-transform: translateY(450px);
     transition-delay: 0.1s;
     -webkit-transition-delay: 0.1s;
 }
 
-// @media only screen and (min-width: 64.063em) {
-//     .large-3 {
-//         position: relative;
-//         width: 25%;
-//     }
-// }
-// @media (max-width: 641px) {
-//     .servicios .large-3 {
-//         width: 100%;
-//         position: relative;
-//     }
-// }
-// @media (max-width: 641px) {
-//     .wpb_wrapper {
-//         width: 50%;
-//         margin: 0 auto;
-//     }
-// }
-
-.service {
-    text-align: center;
-}
-
-.servicios .wpb_content_element {
+.container-overlay .wpb_content_element {
     margin: 0;
 }
 
-.servicios h4 {
+.container-overlay h3 {
     color: #e51e1e;
     margin: 0 auto 10px;
 }
 
-.servicios .wpb_content_element p {
-    font-size: 12px;
-    min-height: 130px;
-    margin: 0 auto 10px;
+.wrapper-overlay-text h3, .wrapper-overlay-text p {
+    text-align: center;
 }
-
-.row.servicios {
-    //max-width: 62.5em;
-}
-
-// @media (max-width: 641px) {
-//     .row.servicios {
-//         margin: 0 !important;
-//         padding: 0 !important;
-//         width: 100% !important;
-//     }
-// }
