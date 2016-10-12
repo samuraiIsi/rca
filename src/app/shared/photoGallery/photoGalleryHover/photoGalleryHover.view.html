@@ -1,0 +1,24 @@
+<div class="container-hoverImg col-lg-6 col-md-12 col-xs-12">
+<p>{{demo}}</p>
+    <div class="wrapperHoverImg col-lg-10 col-md-9 col-xs-10" ng-mousemove="hoverImgSide()" ng-mouseleave="clearhoverImgSide()">
+        <img ng-src="{{imgmain}}" ng-mousemove="showCoords($event)" class="hoverimgorigin img-responsive">
+        <div id="magnifierLens" class="hoverimgSq" style="left: {{XcoorSq}}; top: {{YcoorSq}};">
+        </div>
+    </div>
+    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+        <ul class="thumbs">
+            <li ng-repeat="img in gallerydata">
+                <div class="pull-left">
+                    <a ng-href="javascript:void(0);" ng-init="init(img)" ng-click="changeImg(this)">
+                        <img ng-src="{{img}}">
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container-hoverImgSide">
+    <div class="wrapperHoverImgSide hoverimgSideblock" ng-class="hoverimgSide">
+        <img style="z-index: 1; top: -{{Ycoorimg}}; left: -{{Xcoorimg}}" ng-src="{{imgmain}}">
+    </div>
+</div>

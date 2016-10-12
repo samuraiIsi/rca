@@ -1,9 +1,9 @@
 (function() {
     'use strict';
 
-    angular.module('photoGallery.controller', []);
+    angular.module('photoGallerySlider.controller', []);
 
-    function PhotoGalleryController($scope) {
+    function PhotoGallerySliderController($scope) {
         var IMAGE_WIDTH = 405;
         $scope.buttonText = "Ver Mas";
 
@@ -23,6 +23,6 @@
         };
     }
     angular
-        .module('photoGallery.controller')
-        .controller('PhotoGalleryController', PhotoGalleryController);
+        .module('photoGallerySlider.controller')
+        .controller('PhotoGallerySliderController', PhotoGallerySliderController);
 })();

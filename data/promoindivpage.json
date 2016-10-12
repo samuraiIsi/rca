@@ -1,0 +1,17 @@
+{
+	"titlePage": "Promocion: Semana 2 Agosto 2016",
+	"subTitlePage": "Carteras de Cuero para hombre",
+	"productBrief": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia justo vel nisl sollicitudin, ac interdum arcu maximus. Etiam est metus, vehicula nec vulputate nec",
+	"paragraph": [
+		"Lorem ipsughjghjm dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia justo vel nisl sollicitudin, ac interdum arcu maximus. Etiam est metus, vehicula nec vulputate nec, lobortis in sapien. Vivamus id enim eget nisl molestie elementum at non neque. Morbi varius mauris facilisis nibh imperdiet mollis. Aenean auctor imperdiet facilisis. Curabitur ante leo, condimentum nec venenatis at, condimentum aliquam turpis. Donec molestie efficitur lectus, et feugiat eros placerat faucibus.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lacinia justo vel nisl sollicitudin, ac interdum arcu maximus. Etiam est metus, vehicula nec vulputate nec, lobortis in sapien. Vivamus id enim eget nisl molestie elementum at non neque. Morbi varius mauris facilisis nibh imperdiet mollis. Aenean auctor imperdiet facilisis. Curabitur ante leo, condimentum nec venenatis at, condimentum aliquam turpis. Donec molestie efficitur lectus, et feugiat eros placerat faucibus."
+	],
+	"gallerydata1": [
+	            "src/theme/assets/img/roly/camis_montecarlo.jpg",
+	            "src/theme/assets/img/roly/camis_carolina.jpg",
+	            "src/theme/assets/img/roly/camis_onawa.jpg",
+	            "src/theme/assets/img/roly/camis_armand.jpg"
+        	],
+	"dateExpiration": "05,21,2012",
+	"priceAmount": 45
+}

@@ -7,7 +7,7 @@
         var vm = this;
         vm.model = {};
 
-        PromotionService.all()
+        PromotionService.promotionService()
 		.success(function(data){
 			vm.model.element = data;
 		});

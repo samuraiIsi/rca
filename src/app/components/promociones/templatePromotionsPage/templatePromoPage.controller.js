@@ -3,26 +3,23 @@
 
     angular.module('templatePromoPage.controller', []);
 
-    function TemplatePromoPageController($scope) {
+    function TemplatePromoPageController($scope, PromotionService) {
         var vm = this;
         vm.model = {};
 
-        $scope.bigImg = function() {
-		   $scope.heightImgsrc = 'heightImg';
-		};
+        PromotionService.promotionDivPageService()
+            .success(function(data) {
+                vm.model.element = data;
 
-		$scope.showCoords = function($event) {
-			var x = $event.pageX;
-		    var y = $event.pageY;
-		    var coor = "X coords: " + x + ", Y coords: " + y;
-		    $scope.demo = coor;
-		    $scope.Xcoor = x;
-		    $scope.Ycoor = y;
-		};
+                var currentDay = new Date();
+                var expirationDate = Date.parse(data.dateExpiration);
+                var currentDayMs = currentDay.getTime();
+                if (expirationDate > currentDayMs) {
+                    vm.model.verdad = true;;
+                }
+            });
 
-		$scope.clearCoor = function() {
-
-		};
+        vm.model.priceText = "Precio: ";
 
     }
     angular

@@ -1,20 +1,19 @@
-
-	<div class="row">
-		<div class="col-lg-12">
-			<h1 class="page-title">{{template7.model.element.titlePage}}</h1>
-		</div>
-	</div>
-	<div class="row">
-		<article ng-repeat="panel in template7.model.element.panels">
-			<panel header="{{panel.header}}" body="{{panel.body}}" colclass="{{panel.columns}}" panelstyle="{{panel.panelstyle}}"></panel>
-		</article>
-	</div>
-	<div class="row row-margin">
-			<photo-gallery gallerydata="template7.model.element.gallery1" selected="template7.model.selecting1"></photo-gallery>
-	</div>
-	<div class="row row-margin">
-		<photo-gallery gallerydata="template7.model.element.gallery2" side="template7.model.element.side" selected="template7.model.selecting2"></photo-gallery>
-	</div>
-	<div class="row row-margin">
-		<photo-gallery gallerydata="template7.model.element.gallery3" selected="template7.model.selecting3"></photo-gallery>
-	</div>
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-title">{{template7.model.element.titlePage}}</h1>
+    </div>
+</div>
+<div class="row">
+    <article ng-repeat="panel in template7.model.element.panels">
+        <panel header="{{panel.header}}" body="{{panel.body}}" colclass="{{panel.columns}}" panelstyle="{{panel.panelstyle}}"></panel>
+    </article>
+</div>
+<div class="row row-margin">
+    <photo-gallery-slider gallerydata="template7.model.element.gallery1" selected="template7.model.selecting1"></photo-gallery-slider>
+</div>
+<div class="row row-margin">
+    <photo-gallery-slider gallerydata="template7.model.element.gallery2" side="template7.model.element.side" selected="template7.model.selecting2"></photo-gallery-slider>
+</div>
+<div class="row row-margin">
+    <photo-gallery-slider gallerydata="template7.model.element.gallery3" selected="template7.model.selecting3"></photo-gallery-slider>
+</div>

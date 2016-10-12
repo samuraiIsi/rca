@@ -1,18 +1,21 @@
 .list-gallery {
-    list-style:none;
-    display:inline-block;
+    list-style: none;
+    display: inline-block;
     margin-bottom: 15px;
 }
-ul{
-    padding:0;
-    margin:0;
+
+ul {
+    padding: 0;
+    margin: 0;
 }
+
 .fullsizelist {
-    white-space:nowrap;
+    white-space: nowrap;
 }
+
 .thumbnail-gallery {
-    height:80px;
-    padding:2px;
+    height: 80px;
+    padding: 2px;
 }
 
 .img-carousel {
@@ -21,8 +24,8 @@ ul{
 }
 
 .mainimageshell {
-    background-color:#fff;
-    border-radius:8px;
+    background-color: #fff;
+    border-radius: 8px;
     //float:left;
     // width:400px;
     //padding:10px;
@@ -30,30 +33,29 @@ ul{
 
 .viewwindow {
     width: 407px; // 400px
-    height:307px;
+    height: 307px;
     overflow-x: hidden;
     overflow-y: hidden;
-    position:relative;
+    position: relative;
 }
 
-.fullsizelist{
-    position:absolute;
-    top:0;
-    left:0;
-    transition:  left .8s ease;
-    -ms-transition:  left .8s ease;
-    -o-transition:  left .8s ease;
-    -webkit-transition:  left .8s ease;
-    -moz-transition:  left .8s ease;
+.fullsizelist {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: left .8s ease;
+    -ms-transition: left .8s ease;
+    -o-transition: left .8s ease;
+    -webkit-transition: left .8s ease;
+    -moz-transition: left .8s ease;
 }
 
 .bg {
-    background-color:#333;
-    padding:10px;
-    border-radius:8px;
-    float:left;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    float: left;
 }
-    
 
 .thumbsshell {
     //background-color:#fff;
@@ -74,18 +76,18 @@ ul{
 }
 
 .thumbwrapper {
-    float:left;
-    height:60px;
+    float: left;
+    height: 60px;
 }
 
 .captionshell {
-    margin:0 0 10px 5px;
-    background-color:#fff;
+    margin: 0 0 10px 5px;
+    background-color: #fff;
     //width:175px;
     //height:324px;
-    padding:0 10px;
-    border-radius:8px;
-    float:left;
+    padding: 0 10px;
+    border-radius: 8px;
+    float: left;
     height: 120px;
     p {
         line-height: 1;
@@ -94,15 +96,17 @@ ul{
 }
 
 .logoshell {
-    margin:0 0 0 5px;
-    text-align:center;
-    background-color:#fff;
-    width:175px;
-    padding:9px 10px;
-    border-radius:8px;
-    float:left;
+    margin: 0 0 0 5px;
+    text-align: center;
+    background-color: #fff;
+    width: 175px;
+    padding: 9px 10px;
+    border-radius: 8px;
+    float: left;
 }
-.prev, .next {
+
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 0;
@@ -117,16 +121,118 @@ ul{
     border-radius: 0 3px 3px 0;
     z-index: 1;
 }
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
+
 .description-block {
     height: 126px;
 }
+
 .title-caption {
     margin-top: 5px;
+}
+
+//  -------------------   Promociones  ----------------------
+.wrapperHoverImg {
+    position: relative;
+    //width: 700px;
+    //float: left;
+    .hoverimgSq {
+        display: none;
+    }
+    &:hover {
+        .hoverimgSq {
+            display: block;
+        }
+    }
+    img {
+        cursor: pointer;
+    }
+}
+
+.wrapperHoverImgSide,
+.hoverimgSideblock {
+    display: none;
+}
+
+.wrapperHoverImgSide {
+    height: 700px;
+    width: 1000px;
+    overflow: hidden;
+    position: relative;
+    img {
+        zoom: 3;
+        position: absolute;
+    }
+}
+
+.hoverimgorigin {
+    cursor: none;
+}
+
+.container-hoverImgSide {
+    position: absolute;
+    right: 0;
+    width: 1000px;
+}
+
+.hoverimgSideActive {
+    display: block !important;
+}
+
+.thumbs {
+    li {
+        list-style-type: none;
+        img {
+            width: 76px; //83
+            height: 76px; //80
+            margin-top: 5px;
+            overflow: hidden;
+            -webkit-filter: grayscale(1);
+            -webkit-transition: all 0.6s ease;
+            -moz-transition: all 0.6s ease;
+        }
+    }
+}
+
+.thumbs img:hover {
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    z-index: 999;
+}
+
+@media (max-width: 414px) {
+    .container-hoverImg {
+        min-height: 465px;
+        div {
+            width: 100% !important;
+        }
+    }
+    .thumbs {
+        overflow-x: scroll;
+        white-space: nowrap;
+        li {
+            //float: left;
+            padding-right: 5px;
+            display: inline-block;
+            img {
+                width: 76px; //83
+                height: 76px; //80
+            }
+        }
+    }
+    .textpromo {
+        h1 {
+            font-size: 25px;
+        }
+    }
 }

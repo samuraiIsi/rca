@@ -73,8 +73,8 @@ angular.module('app')
 		controller: 'PromocionesController',
 		controllerAs: 'promociones'
 	})
-	.state('promociones.hola', {
-		url: '/hola',
+	.state('promociones.templatepromopage', {
+		url: '/templatepromopage',
 		parent: 'promociones',
 		templateUrl: 'src/app/components/promociones/templatePromotionsPage/templatePromoPage.view.html',
 		controller: 'TemplatePromoPageController',

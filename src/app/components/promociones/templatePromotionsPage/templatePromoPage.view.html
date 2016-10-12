@@ -1,10 +1,20 @@
 <div>
-<p>{{demo}}</p>
-	<img src="src/theme/assets/img/roly/camis_montecarlo.jpg" ng-mousemove="showCoords($event)" ng-mouseleave="clearCoor()">
-	<div class="" style="border: solid; width: 300px; height: 300px; float: right; overflow: hidden; position: relative; margin-right: 500px;">
-		<img style="position: absolute; top: 500px; left: 500px" src="src/theme/assets/img/roly/camis_montecarlo.jpg" ng-mouseover="bigImg()" ng-mouseleave="normalImg()">
-	</div>
-	<!-- <img src="src/theme/assets/img/roly/camis_montecarlo.jpg" ng-class="heightImgsrc"> -->
-</div>
+    <div class="">
+    <photo-gallery-hover gallerydata="templatePromoPage.model.element.gallerydata1"></photo-gallery-hover>
 
-<!-- <div id="magnifierLens" style="background-image: url(&quot;https://images-na.ssl-images-amazon.com/images/G/01/apparel/rcxgs/tile._CB211431200_.gif&quot;); position: absolute; cursor: pointer; width: 391px; height: 268px; left: 107.281px; top: 343px;"></div> -->
+    </div>
+    <div class="textpromo col-lg-6 col-md-12 col-xs-12">
+        <h1>{{ templatePromoPage.model.element.titlePage }}</h1>
+        <div ng-if="templatePromoPage.model.verdad" class="alert alert-danger">
+            <h3>Campaña Finalizada</h3>
+        </div>
+        <h3>{{ templatePromoPage.model.element.subTitlePage }}</h3>
+        <h5>{{ templatePromoPage.model.element.productBrief }}</h5>
+        <p ng-repeat="text in templatePromoPage.model.element.paragraph">{{text}}</p>
+        <p class="pricepromo">{{ templatePromoPage.model.priceText }}<span>{{ templatePromoPage.model.element.priceAmount | currency: '&euro;' }}</span></p>
+        <p>
+            <a type="button" ng-href="#" class="btn btn-danger btn--oval text-uppercase" href="http://localhost:8075/#/contacto">contactar</a>
+        </p>
+    </div>
+    
+</div>
