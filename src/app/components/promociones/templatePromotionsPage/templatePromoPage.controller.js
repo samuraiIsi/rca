@@ -14,8 +14,8 @@
                 var currentDay = new Date();
                 var expirationDate = Date.parse(data.dateExpiration);
                 var currentDayMs = currentDay.getTime();
-                if (expirationDate > currentDayMs) {
-                    vm.model.verdad = true;;
+                if (expirationDate < currentDayMs) {
+                    vm.model.expired = true;;
                 }
             });
 

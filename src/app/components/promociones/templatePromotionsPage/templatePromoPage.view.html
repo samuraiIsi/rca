@@ -1,11 +1,11 @@
-<div>
+<div class="clearfix">
     <div class="">
     <photo-gallery-hover gallerydata="templatePromoPage.model.element.gallerydata1"></photo-gallery-hover>
 
     </div>
     <div class="textpromo col-lg-6 col-md-12 col-xs-12">
         <h1>{{ templatePromoPage.model.element.titlePage }}</h1>
-        <div ng-if="templatePromoPage.model.verdad" class="alert alert-danger">
+        <div ng-if="templatePromoPage.model.expired" class="alert alert-danger text-center">
             <h3>Campaña Finalizada</h3>
         </div>
         <h3>{{ templatePromoPage.model.element.subTitlePage }}</h3>
@@ -16,5 +16,4 @@
             <a type="button" class="btn btn-danger btn--oval text-uppercase" href="http://localhost:8075/#/contacto">contactar</a>
         </p>
     </div>
-    
 </div>
