@@ -11,7 +11,7 @@
             <h3>{{titleimgoverlay | camelCaseFilter}}</h3>
             <p>{{textimgoverlay}}</p>
             <p>
-                <a type="button" ui-sref=".{{linkbtn1}}" class="btn {{color1imgoverlay}} btn--oval text-uppercase">{{text1btnimgoverlay}}
+                <a type="button" ui-sref=".{{linkbtn1}}" ng-click="imgOverlay.toTop()" class="btn {{color1imgoverlay}} btn--oval text-uppercase">{{text1btnimgoverlay}}
                     </a>
                 <a type="button" ng-href="{{linkbtn2}}" class="btn {{color2imgoverlay}} btn--oval text-uppercase">{{text2btnimgoverlay}}
                     </a>

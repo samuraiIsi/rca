@@ -3,9 +3,13 @@
 
     angular.module('imgOverlay.controller', []);
 
-    function ImgOverlayController() {
+    function ImgOverlayController($scope, $window) {
         var vm = this;
         vm.model = {};
+
+        vm.toTop = function() {
+            $window.scrollTo(0, -100);
+        }
     }
 
     angular

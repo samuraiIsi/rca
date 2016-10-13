@@ -3,6 +3,7 @@
 
 	angular
 		.module('common.shared', [
+			'shared.btnToBack',
 			'shared.btnToTop',
 			'shared.carousel',
 			'shared.detectViewPort',
