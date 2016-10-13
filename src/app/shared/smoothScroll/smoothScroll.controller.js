@@ -3,10 +3,10 @@
 
     angular.module('smoothScroll.controller', []);
 
-    function SmoothScrollController($scope, $http, $location, anchorSmoothScroll) {
-    	// $scope.gotoElement = function (eID) {
-     //        anchorSmoothScroll.scrollTo(eID);
-     //    };
+    function SmoothScrollController($scope, AnchorSmoothScroll) {
+        $scope.gotoElement = function(eID) {
+            AnchorSmoothScroll.scrollTo(eID);
+        };
     }
 
     angular
