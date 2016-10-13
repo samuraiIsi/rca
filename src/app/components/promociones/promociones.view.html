@@ -9,11 +9,12 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <article ng-repeat="ele in promociones.model.element.imgsoverlay">
+                <article dir-paginate="ele in promociones.model.element.imgsoverlay| itemsPerPage: 8">
                     <img-overlay colsimgoverlay="{{ele.colsimgoverlay}}" imgimgoverlay="{{ele.imgimgoverlay}}" titleimgoverlay="{{ele.titleimgoverlay}}" textimgoverlay="{{ele.textimgoverlay}}" linkbtn1="{{ele.linkbtn1}}" color1imgoverlay="{{ele.color1imgoverlay}}" text1btnimgoverlay="{{ele.text1btnimgoverlay}}" linkbtn2="{{ele.linkbtn2}}" color2imgoverlay="{{ele.color2imgoverlay}}" text2btnimgoverlay="{{ele.text2btnimgoverlay}}" classwellpanel="{{ele.classwellpanel}}" titlebanner="{{ele.titlebanner}}">
                     </img-overlay>
                 </article>
             </div>
+            <dir-pagination-controls></dir-pagination-controls>
         </div>
     </div>
 </section>

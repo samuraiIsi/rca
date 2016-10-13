@@ -5,6 +5,7 @@
 			
 			'ui.router',
 			'ui.bootstrap',
+			'angularUtils.directives.dirPagination',
 
 			'footer',
 			'header',

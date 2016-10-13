@@ -112,6 +112,20 @@
 			"text2btnimgoverlay": "contactar",
 			"classwellpanel": "banner-25p b--h2",
 			"titlebanner": "carteras de cuero"
+		},
+		{
+			"colsimgoverlay": "col-lg-3 col-md-6 col-sm-12",
+			"imgimgoverlay": "src/theme/assets/img/roly/camis_carolina.jpg",
+			"titleimgoverlay": "oferta regalo",
+			"textimgoverlay": "Expertos en diseño y desarrollo de páginas web con gran usabilidad y estilo. Adaptadas a todos los dispositivos y  optimizadas para comenzar a escalar posiciones en el buscador.",
+			"linkbtn1": "templatepromopage",
+			"color1imgoverlay": "btn-warning",
+			"text1btnimgoverlay": "ver mas",
+			"linkbtn2": "#",
+			"color2imgoverlay": "btn-danger",
+			"text2btnimgoverlay": "contactar",
+			"classwellpanel": "banner-25p b--h2",
+			"titlebanner": "carteras de cuero"
 		}
 	]
 }

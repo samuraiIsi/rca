@@ -1,0 +1,35 @@
+.pagination>.active {
+	&>a {
+		background-color: #f05f40;
+		border: 2px solid #d43511;
+		&:hover, &:focus {
+			background-color: #d43511;
+			border: 2px solid #8e230b;
+		}
+	}
+}
+
+.pagination>li {
+	&>a {
+		color: #f05f40;
+		border: solid 1px #f7b1a1;
+		&:hover, &:focus {
+			background-color: #f05f40;
+			border: 2px solid #d43511;
+		}
+	}
+}
+
+.pagination>.disabled {
+	&>a {
+		color: #f05f40;
+		border: solid 1px #f7b1a1;
+		&:hover {
+			background-color: #f05f40;
+			border: 2px solid #d43511;
+		}
+		&:focus {
+			border: 2px solid #d43511;
+		}
+	}
+}
