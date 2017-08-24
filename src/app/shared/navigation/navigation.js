@@ -9,7 +9,7 @@
             controllerAs: 'navigation',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/navigation/navigation.view.html'
+            templateUrl: 'src/app/shared/navigation/navigation.view.html'
         };
     }
 

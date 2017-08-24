@@ -9,51 +9,62 @@
         concat = require('gulp-concat'),
         rename = require('gulp-rename'),
         ngAnnotate = require('gulp-ng-annotate'),
-        loading = require('gulp-load-plugins')();
+        concatVendor= require('gulp-concat-vendor'),
+        angularTemplateCache = require('gulp-angular-templatecache');
+    loading = require('gulp-load-plugins')();
 
     var jsFiles = 'src/**/**/**/*.js',
-    htmlFiles = 'src/**/**/**/*.html',
-    vendorFiles = 'vendor/**/**/*.js',
-    vendorDest = 'build/',
-    jsDest = 'build/src',
-    htmlDst = 'build/src';
+        htmlFiles = 'src/**/**/**/*.html',
+        vendorFiles = 'vendor/*.js',
+        vendorDest = 'build/src',
+        jsDest = 'build/src',
+        htmlDst = 'build/src';
 
-    gulp.task('scripts', function(){
+    gulp.task('scripts', function() {
         return gulp.src(jsFiles)
-        .pipe(gulp.dest(jsDest)) 
-        .pipe(concat('scripts.js'))
-        .pipe(ngAnnotate({add: true}))
-        .pipe(gulp.dest(jsDest)) 
-        .pipe(uglify())
-        .pipe(rename('scripts.min.js'))
-        .pipe(gulp.dest(jsDest));
-        //.on('error', gutil.log);
+            .pipe(gulp.dest(jsDest))
+            .pipe(concat('scripts.js'))
+            .pipe(ngAnnotate({ add: true }))
+            .pipe(gulp.dest(jsDest))
+            .pipe(uglify())
+            .pipe(rename('scripts.min.js'))
+            .pipe(gulp.dest(jsDest));
     });
+
+    // gulp.task('vendor', function() {
+    //     return gulp.src(vendorFiles)
+    //         .pipe(concat('vendor.js'))
+    //         .pipe(gulp.dest(vendorDest));
+    // });
 
     gulp.task('vendor', function() {
-        return gulp.src(vendorFiles)
-        .pipe(concat('vendor.js'))
-        .pipe(gulp.dest(vendorDest));
+        gulp.src(vendorFiles)
+            .pipe(concatVendor('vendor.js'))
+            .pipe(gulp.dest(vendorDest));
     });
 
-    gulp.task('minify', function() {
+    gulp.task('templates', function() {
         return gulp.src(htmlFiles)
-        .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(concat('templates-app.js'))
-        .pipe(gulp.dest(htmlDst));
+            .pipe(htmlmin({ collapseWhitespace: true }))
+            .pipe(angularTemplateCache('templates-app.js', {
+                module: 'app',
+                root: 'src/'
+            }))
+            .pipe(gulp.dest(htmlDst));
     });
 
-    gulp.task('less', function () {
+    gulp.task('less', function() {
         gulp.src('src/theme/less/main.less')
-        .pipe(less())
-        .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(gulp.dest('css/'));
+            .pipe(less())
+            .pipe(cleanCSS({ compatibility: 'ie8' }))
+            .pipe(gulp.dest('css/'));
     });
 
-    gulp.task('build', function(){
+    gulp.task('build', function() {
         gulp.watch('src/**/*.js', ['scripts']);
-        gulp.watch('./src/**/*.html', ['minify']);
+        gulp.watch('./src/**/*.html', ['templates']);
         gulp.watch('./src/**/*.less', ['less']);
+        gulp.watch('./src/**/*.js', ['vendor']);
     });
 
     gulp.task('serve', function() {
@@ -63,5 +74,5 @@
         });
     });
 
-    gulp.task('default', ['scripts', 'less', 'minify', 'build', 'serve']);
+    gulp.task('default', ['scripts', 'less', 'templates', 'build', 'vendor', 'serve']);
 })();

@@ -9,7 +9,7 @@
             controllerAs: 'btnToTop',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/btnToTop/btnToTop.view.html'
+            templateUrl: 'src/app/shared/btnToTop/btnToTop.view.html'
         };
     }
 

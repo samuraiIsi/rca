@@ -9,7 +9,7 @@
             controllerAs: 'presentationLg',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/presentation/presentationLg/presentationLg.view.html',
+            templateUrl: 'src/app/shared/presentation/presentationLg/presentationLg.view.html',
             scope: {
                 header: "@",
                 subheader: "@"

@@ -6,7 +6,7 @@
     function CatalogosService($http) {
         return {
             all: function() {
-                return $http({method: "GET", url: '../../../data/catalogos.json'});
+                return $http({method: "GET", url: 'data/catalogos.json'});
             }
         };
     }

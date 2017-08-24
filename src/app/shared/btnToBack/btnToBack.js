@@ -10,7 +10,7 @@
             replace: true,
             restrict: 'E,A',
             transclude : true,
-            templateUrl: '/src/app/shared/btnToBack/btnToBack.view.html',
+            templateUrl: 'src/app/shared/btnToBack/btnToBack.view.html',
             link: function (scope, elem, attrs) {
                 elem.bind("click", function () {
                     $window.history.back();

@@ -1,42 +1,36 @@
 {
 	"headerbg": "http://localhost:8075/src/theme/assets/img/header-bgs/laptop_header.jpg",
-	"title" : "YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES",
-	"subTitle" : "Startttt Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!",
+	"title" : "Convierte tu Imaginación en Realidad con Nosotros",
+	"subTitle" : "Somos una empresa sevillana, fundada en 1982, dedicada a la fabricación, importación, comercialización e impresión de una gran variedad de objetos publicitarios. Durante este tiempo hemos procurado dar a nuestros clientes el mejor servicio, mejorando los medios de producción con la incorporación de la maquinaria más moderna y eficaz. Nos sentimos orgullosos de haber estado en todo momento a la altura de las expectativas de nuestros clientes, entre los que se encuentran tanto empresas privadas como públicas. Nos ponemos a su disposición ofreciéndole nuestro equipo humano y técnico para dar respuesta a sus necesidades.",
 	"btnClassPresentXlg": "btn btn-danger btn--oval text-uppercase",
-	"ctaTextPresentXlg" : "Mira lo Ultimo",
-	"titlePresentLg": "We've got what you need!",
-	"subTitlePresentLg": "Empieza a ver nuestra gama de boligrafos you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!",
+	"ctaTextPresentXlg" : "Mira lo Último",
+	"titlePresentLg": "Tenemos lo que necesitas",
+	"subTitlePresentLg": "Desarrolla tu imaginación y plásmalo sobre cualquiera de los artículos que te ofrecemos.",
 	"btnNosotrosCtaText": "btn btn-default btn--oval text-uppercase",
 	"revealerClass": "btnViewPortAnimation",	
-	"nosotrosCtaText" : "Quiero Informacion",
-	"serviciosTitle" : "At your service",
+	"nosotrosCtaText" : "Cómo lo Hago",
+	"serviciosTitle" : "Sigue los Pasos",
 	"portafolioInfoTitle" : "Ver mas Sobre nuestro Portafolio",
 	"portafolioInfoCtaText" : "Ver Mas",
 	"notes": 
 	[
 		{
 			"infoIconBanFour": "glyphicon glyphicon-book",
-			"titleInfoBanFour": "Sturdy Templates1",
-			"subTitleInfoBanFour": "Our templates are updated regularly so they don't break.1",
+			"titleInfoBanFour": "Busca tu Producto",
+			"subTitleInfoBanFour": "Elige tu producto del catálogo",
 			"revealernumber": "glyphicon-animation c1"
 		},
 		{
 			"infoIconBanFour": "glyphicon glyphicon-envelope",
-			"titleInfoBanFour": "Sturdy Templates1",
-			"subTitleInfoBanFour": "Our templates are updated regularly so they don't break.1",
+			"titleInfoBanFour": "Indica Referencia",
+			"subTitleInfoBanFour": "Anota la Referencia del producto que deseas",
 			"revealernumber": "glyphicon-animation c2"
 		},
 		{
 			"infoIconBanFour": "glyphicon glyphicon-cloud",
-			"titleInfoBanFour": "Sturdy Templates1",
-			"subTitleInfoBanFour": "Our templates are updated regularly so they don't break.1",
+			"titleInfoBanFour": "Contacto",
+			"subTitleInfoBanFour": "En área de contacto, en comentarios, indica Referencia y Cantidad.",
 			"revealernumber": "glyphicon-animation c3"
-		},
-		{
-			"infoIconBanFour": "glyphicon glyphicon-user",
-			"titleInfoBanFour": "Sturdy Templates1",
-			"subTitleInfoBanFour": "Our templates are updated regularly so they don't break.1",
-			"revealernumber": "glyphicon-animation c4"
 		}
 	],
 	"images":

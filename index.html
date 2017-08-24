@@ -5,7 +5,7 @@
     <title>RCA - Inicio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
-    <link rel="shortcut icon" href="src/theme/assets/img/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="https://maps.google.com/maps/api/js?key=AIzaSyB1k-1JMJZk4nUqUy6N84bRLXbwi5EwPOs"></script>
@@ -14,23 +14,28 @@
 <body id="scrollArea">
 	<!--cookie consent-->
 	<!-- <header class="main-header" data-ng-include="'components/header/header.html'"></header>-->
+	 <!-- <div class="main-header" data-ng-include="'layout/header/header.view.html'"></div> -->
+	<!-- <div ui-view="header"></div> -->
 	<header-section></header-section>
-	
 	<div id="view" ui-view></div>
 
 	<btn-to-top></btn-to-top>
 	<!-- <widgets></widgets> -->
 	<footer-section></footer-section>
 	
+	
+	<!--<script src="/build/src/vendor.js"></script>-->
 	<!-- vendor -->	
-
- 	<script src="vendor/angular/angular.js"></script>
- 	<script src="vendor/angular-ui-router/release/angular-ui-router.js"></script>
- 	<script src="vendor/ui-bootstrap-tpls-2.0.0.min.js"></script>
- 	<script src="vendor/markdown.js"></script>
- 	<script src="vendor/dirPagination.js"></script>
+ 	<script src="/vendor/angular.js"></script>
+ 	<script src="/vendor/markdown.js"></script>
+ 	<script src="/vendor/dirPagination.js"></script>
+ 	<script src="/vendor/min/angular-ui-router.min.js"></script>
+ 	<script src="/vendor/min/ui-bootstrap-tpls-2.0.0.min.js"></script>
  	
 	<!-- inject:js -->
- 	<script src="build/src/scripts.js"></script>
+	<script src="/build/src/scripts.min.js"></script>
+	<!--<script src="/build/src/templates-app.js"></script>-->
+ 	
+
 </body>
 </html>

@@ -6,7 +6,7 @@
     function NavigationService($http) {
         return {
             all: function() {
-                return $http({method: "GET", url: '../../../data/navElems.json'});
+                return $http({method: "GET", url: 'data/navElems.json'});
             }
         };
     }

@@ -9,7 +9,7 @@
             controllerAs: 'textOnly',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/article/textOnly/textOnly.view.html',
+            templateUrl: 'src/app/shared/article/textOnly/textOnly.view.html',
             scope: {
                 bodytext: "@",
                 colclass: "@",

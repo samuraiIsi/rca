@@ -9,7 +9,7 @@
             controllerAs: 'panel',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/article/panel/panel.view.html',
+            templateUrl: 'src/app/shared/article/panel/panel.view.html',
             scope: {
                 header: "@",
                 body: "@",

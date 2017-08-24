@@ -8,7 +8,7 @@
             controller: 'PhotoGalleryHoverController',
             controllerAs: 'photoGalleryHover',
             restrict: 'E',
-            templateUrl: '/src/app/shared/photoGallery/photoGalleryHover/photoGalleryHover.view.html',
+            templateUrl: 'src/app/shared/photoGallery/photoGalleryHover/photoGalleryHover.view.html',
             scope: {
                 gallerydata: "="
             }

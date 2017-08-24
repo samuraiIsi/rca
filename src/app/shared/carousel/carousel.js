@@ -10,7 +10,7 @@
             replace: true,
             restrict: 'E',
             require: '^NwCategoryItemController',
-            templateUrl: '/src/app/shared/carousel/carousel.view.html',
+            templateUrl: 'src/app/shared/carousel/carousel.view.html',
             scope: {
                 slidedata: "="
             }

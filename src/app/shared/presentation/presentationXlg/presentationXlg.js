@@ -9,7 +9,7 @@
             controllerAs: 'presentationXlg',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/presentation/presentationXlg/presentationXlg.view.html',
+            templateUrl: 'src/app/shared/presentation/presentationXlg/presentationXlg.view.html',
             scope: {
                 ctatext: "@",
                 btnclass: "@",

@@ -8,7 +8,7 @@
             controller: 'NwCategoryItemController',
             controllerAs: 'nwCategoryItem',
             restrict: 'E',
-            templateUrl: '/src/app/shared/menuSide/nwCategoryItem/nwCategoryItem.view.html',
+            templateUrl: 'src/app/shared/menuSide/nwCategoryItem/nwCategoryItem.view.html',
             scope: {
                 category: "="
             },

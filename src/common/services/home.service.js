@@ -6,7 +6,7 @@
     function HomeService($http) {
         return {
             all: function() {
-                return $http({method: "GET", url: '../../../data/home.json'});
+                return $http({method: "GET", url: 'data/home.json'});
             }
         };
     }

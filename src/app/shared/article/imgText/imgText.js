@@ -9,7 +9,7 @@
             controllerAs: 'imgText',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/article/imgText/imgText.view.html',
+            templateUrl: 'src/app/shared/article/imgText/imgText.view.html',
             scope: {
                 bottomtext: "@",
                 colclass: "@",

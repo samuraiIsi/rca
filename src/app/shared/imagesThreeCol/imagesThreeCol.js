@@ -9,7 +9,7 @@
             controllerAs: 'imagesThreeCol',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/imagesThreeCol/imagesThreeCol.view.html',
+            templateUrl: 'src/app/shared/imagesThreeCol/imagesThreeCol.view.html',
             scope: {
                 enlace: "@",
                 image: "@",

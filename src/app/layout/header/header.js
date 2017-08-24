@@ -7,7 +7,7 @@
         return {
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/layout/header/header.view.html'
+            templateUrl: 'src/app/layout/header/header.view.html'
         };
     }
 

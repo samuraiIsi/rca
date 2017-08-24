@@ -9,7 +9,7 @@
             controllerAs: 'imgOverlay',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/imgOverlay/imgOverlay.view.html',
+            templateUrl: 'src/app/shared/imgOverlay/imgOverlay.view.html',
             scope: {
                 colsimgoverlay: "@",
                 imgimgoverlay: "@",

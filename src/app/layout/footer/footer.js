@@ -9,7 +9,7 @@
             controllerAs: 'footer',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/layout/footer/footer.view.html'
+            templateUrl: 'src/app/layout/footer/footer.view.html'
         };
     }
 

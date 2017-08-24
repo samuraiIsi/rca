@@ -9,7 +9,7 @@
             controllerAs: 'nwCategorySelect',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/menuSide/nwCategorySelect/nwCategorySelect.view.html',
+            templateUrl: 'src/app/shared/menuSide/nwCategorySelect/nwCategorySelect.view.html',
             link: function(scope, element, attrs) {
                 CategoryService.all()
                     .success(function(data){

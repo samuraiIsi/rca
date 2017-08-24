@@ -9,7 +9,7 @@
             controllerAs: 'iconText',
             replace: true,
             restrict: 'E',
-            templateUrl: '/src/app/shared/article/iconText/iconText.view.html',
+            templateUrl: 'src/app/shared/article/iconText/iconText.view.html',
             scope: {
                 header: "@",
                 subheader: "@",

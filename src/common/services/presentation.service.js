@@ -6,7 +6,7 @@
     function PresentationLgService($http) {
         return {
             all: function() {
-                return $http({method: "GET", url: '../../../data/presentationLg.json'});
+                return $http({method: "GET", url: 'data/presentationLg.json'});
             }
         };
     }

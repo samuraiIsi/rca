@@ -6,7 +6,7 @@
     function CategoryService($http) {
         return {
             all: function() {
-                return $http({method: "GET", url: '../../../data/category.json'});
+                return $http({method: "GET", url: 'data/category.json'});
             }
         };
     }

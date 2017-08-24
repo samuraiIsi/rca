@@ -6,7 +6,7 @@
     function FooterService($http) {
         return {
             all: function() {
-                return $http({method: "GET", url: '../../../data/footer.json'});
+                return $http({method: "GET", url: 'data/footer.json'});
             }
         };
     }

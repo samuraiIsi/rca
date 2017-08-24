@@ -8,7 +8,7 @@
             controller: 'PhotoGallerySliderController',
             controllerAs: 'photoGallerySlider',
             restrict: 'E',
-            templateUrl: '/src/app/shared/photoGallery/photoGallerySlider/photoGallerySlider.view.html',
+            templateUrl: 'src/app/shared/photoGallery/photoGallerySlider/photoGallerySlider.view.html',
             scope: {
                 gallerydata: "=",
                 descriptiondata: "=",
